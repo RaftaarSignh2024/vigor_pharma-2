@@ -119,7 +119,7 @@ export default function Contact() {
                     type="text" 
                     id="name" 
                     className="w-full p-4 border border-black/5 rounded-xl bg-bg-color focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all" 
-                    placeholder="John Doe" 
+                    placeholder="e.g. Jane Smith" 
                     required 
                   />
                 </div>
@@ -130,7 +130,7 @@ export default function Contact() {
                     type="email" 
                     id="email" 
                     className="w-full p-4 border border-black/5 rounded-xl bg-bg-color focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all" 
-                    placeholder="john@example.com" 
+                    placeholder="e.g. jane.smith@company.com" 
                     required 
                   />
                 </div>

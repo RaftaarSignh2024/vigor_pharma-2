@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
@@ -71,8 +72,8 @@ export default function Navbar() {
 
       <nav className={`w-full transition-all duration-300 ${isScrolled ? "py-3 bg-white/90 backdrop-blur-md shadow-sm" : "py-5 glass"}`}>
         <div className="w-full max-w-[1280px] mx-auto px-6 flex justify-between items-center relative">
-        <Link href="/" className="font-heading text-2xl font-extrabold text-text-dark flex items-center gap-2">
-          <i className="ph-fill ph-drop text-primary"></i> Vigor<span className="text-primary">.</span>
+        <Link href="/" className="relative h-16 md:h-20 w-40 md:w-48 shrink-0 flex items-center overflow-hidden">
+          <Image src="/logo.png" alt="Vigor Logo" fill className="object-contain scale-[1.3] md:scale-[1.5] origin-left mix-blend-multiply" priority />
         </Link>
 
         {/* Desktop Menu */}

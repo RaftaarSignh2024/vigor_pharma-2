@@ -2,28 +2,43 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Slide {
   id: number;
   imageUrl: string;
   alt: string;
+  title?: string;
+  subtitle?: string;
 }
-
 const slides: Slide[] = [
   {
     id: 1,
-    imageUrl: "/slider_products.png",
-    alt: "Premium Healthcare and Wellness Products",
+    imageUrl: "/slider_egg_white.png",
+    alt: "Premium Egg White Powder",
+    title: "Pure Egg White Powder",
+    subtitle: "100% pure protein powerhouse for athletes and fitness enthusiasts."
   },
   {
     id: 2,
-    imageUrl: "/slider_business.png",
-    alt: "Global Enterprise and Business Solutions",
+    imageUrl: "/slider_egg_yolk.png",
+    alt: "Premium Egg Yolk Powder",
+    title: "Rich Egg Yolk Powder",
+    subtitle: "Nutrient-dense and vibrant, perfect for holistic health and nutrition."
   },
   {
     id: 3,
-    imageUrl: "/slider_pharma.png",
-    alt: "Advanced Pharmaceutical Research",
+    imageUrl: "/slider_sanitary_pads.png",
+    alt: "Ultra-Soft Sanitary Pads",
+    title: "Ultra-Soft Sanitary Pads",
+    subtitle: "Advanced absorption with a breathable, skin-friendly layer for ultimate comfort."
+  },
+  {
+    id: 4,
+    imageUrl: "/slider_baby_diapers.png",
+    alt: "Premium Baby Diapers",
+    title: "Premium Baby Diapers",
+    subtitle: "Gentle on skin, offering maximum protection and coziness for your little ones."
   }
 ];
 
@@ -51,7 +66,7 @@ export default function HeroSlider() {
   };
 
   return (
-    <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden bg-gray-100 group mt-[116px]">
+    <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden bg-gray-100 group mt-[144px] md:mt-[160px]">
       {/* Slides */}
       <div 
         className="flex transition-transform duration-700 ease-out h-full"
@@ -64,8 +79,26 @@ export default function HeroSlider() {
               alt={slide.alt}
               className="w-full h-full object-cover"
             />
-            {/* Optional overlay if you want text on top of images later */}
-            {/* <div className="absolute inset-0 bg-black/20 pointer-events-none"></div> */}
+            {/* Overlay and Text */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center">
+              <div className="w-full max-w-[1280px] mx-auto px-6">
+                <div className="max-w-2xl text-white animate-in slide-in-from-bottom-8 duration-1000">
+                  {slide.title && (
+                    <h2 className="font-heading text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+                      {slide.title}
+                    </h2>
+                  )}
+                  {slide.subtitle && (
+                    <p className="text-lg md:text-xl text-white/90 mb-8 max-w-xl">
+                      {slide.subtitle}
+                    </p>
+                  )}
+                  <Link href="/products" className="inline-flex items-center justify-center px-8 py-4 rounded-full font-heading font-semibold text-primary-dark bg-white hover:bg-gray-100 transition-all duration-300">
+                    Explore Product
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         ))}
       </div>

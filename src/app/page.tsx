@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import HeroSlider from "@/components/HeroSlider";
 import LabTestProcess from "@/components/LabTestProcess";
+import Testimonials from "@/components/Testimonials";
+
 export default function Home() {
   return (
     <>
@@ -111,6 +113,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
     </>
   );
 }

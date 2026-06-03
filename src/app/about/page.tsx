@@ -61,32 +61,47 @@ export default function About() {
             <p className="text-lg text-text-muted max-w-2xl mx-auto">A unified approach to wellness, agriculture, and quality products through our diverse ventures.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex flex-col gap-12">
             {/* Vigor Life Care LLP */}
-            <div className="p-8 rounded-3xl bg-surface border border-black/5 shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] hover:border-primary-light transition-all duration-300 group animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
-              <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                <i className="ph-fill ph-heartbeat"></i>
+            <div className="flex flex-col md:flex-row items-center bg-surface rounded-3xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] border border-black/5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
+              <div className="w-full md:w-1/2 h-64 md:h-[400px] relative">
+                <img src="/banner_vigor_life_care.png" alt="Vigor Life Care LLP" className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-heading text-2xl font-bold mb-3">Vigor Life Care LLP</h3>
-              <p className="text-text-muted leading-relaxed">Dedicated to pioneering healthcare solutions and premium personal care products that enhance everyday well-being and hygiene.</p>
+              <div className="w-full md:w-1/2 p-10 md:p-16">
+                <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
+                  <i className="ph-fill ph-heartbeat"></i>
+                </div>
+                <h3 className="font-heading text-3xl font-bold mb-4">Vigor Life Care LLP</h3>
+                <p className="text-text-muted text-lg leading-relaxed">Dedicated to pioneering healthcare solutions and premium personal care products that enhance everyday well-being and hygiene.</p>
+              </div>
             </div>
             
             {/* GS Enterprises */}
-            <div className="p-8 rounded-3xl bg-surface border border-black/5 shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] hover:border-primary-light transition-all duration-300 group animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
-              <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                <i className="ph-fill ph-storefront"></i>
+            <div className="flex flex-col md:flex-row-reverse items-center bg-surface rounded-3xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] border border-black/5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
+              <div className="w-full md:w-1/2 h-64 md:h-[400px] relative">
+                <img src="/banner_gs_enterprises.png" alt="GS Enterprises" className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-heading text-2xl font-bold mb-3">GS Enterprises</h3>
-              <p className="text-text-muted leading-relaxed">Our robust distribution and trading arm, ensuring seamless supply chains and delivering excellence across markets worldwide.</p>
+              <div className="w-full md:w-1/2 p-10 md:p-16">
+                <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
+                  <i className="ph-fill ph-storefront"></i>
+                </div>
+                <h3 className="font-heading text-3xl font-bold mb-4">GS Enterprises</h3>
+                <p className="text-text-muted text-lg leading-relaxed">Our robust distribution and trading arm, ensuring seamless supply chains and delivering excellence across markets worldwide.</p>
+              </div>
             </div>
             
             {/* CF Natural Lay Farms LLP */}
-            <div className="p-8 rounded-3xl bg-surface border border-black/5 shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] hover:border-primary-light transition-all duration-300 group animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
-              <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                <i className="ph-fill ph-plant"></i>
+            <div className="flex flex-col md:flex-row items-center bg-surface rounded-3xl overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] border border-black/5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+              <div className="w-full md:w-1/2 h-64 md:h-[400px] relative">
+                <img src="/banner_cf_farms.png" alt="CF Natural Lay Farms LLP" className="w-full h-full object-cover" />
               </div>
-              <h3 className="font-heading text-2xl font-bold mb-3">CF Natural Lay Farms LLP</h3>
-              <p className="text-text-muted leading-relaxed">Committed to sustainable agriculture and providing farm-fresh, nutritionally rich produce right from nature to your table.</p>
+              <div className="w-full md:w-1/2 p-10 md:p-16">
+                <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
+                  <i className="ph-fill ph-plant"></i>
+                </div>
+                <h3 className="font-heading text-3xl font-bold mb-4">CF Natural Lay Farms LLP</h3>
+                <p className="text-text-muted text-lg leading-relaxed">Committed to sustainable agriculture and providing farm-fresh, nutritionally rich produce right from nature to your table.</p>
+              </div>
             </div>
           </div>
         </div>

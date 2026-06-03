@@ -1,58 +1,43 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="relative bg-white pt-20 overflow-hidden font-sans text-sm text-[#4a4a4a]">
       <div className="w-full max-w-[1280px] mx-auto px-6 relative z-10 pb-32">
-        <div className="mb-12">
-          <Link href="/" className="font-heading text-5xl font-extrabold text-black uppercase tracking-tight">
-            VIGOR
+        <div className="mb-2 -mt-4">
+          <Link href="/" className="relative inline-block h-16 md:h-20 w-48 md:w-64">
+            <Image src="/logo.png" alt="Vigor Logo" fill className="object-contain origin-left mix-blend-multiply scale-150" />
           </Link>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.5fr] gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-[2fr_1.5fr_2fr] gap-8 lg:gap-12">
           
           {/* Column 1: Company Info */}
-          <div className="flex flex-col gap-6">
-            <h4 className="font-bold text-black text-base">Vigor Life Care LLP</h4>
-            <p className="font-semibold">CIN Number: U74999HR2026VIGOR01</p>
-            <p className="leading-relaxed">
-              <span className="font-bold text-black">Registered</span> Office: 123 Wellness Ave, 
-              Suite 400, New York, NY 10001
+          <div>
+            <h4 className="font-bold text-black text-xl mb-6 uppercase tracking-wide">Vigor Life Care LLP</h4>
+            <p className="leading-relaxed text-[#5a5a5a] font-semibold">
+              <span className="font-bold text-black">Registered Office:</span> Building - Vigor Life Care LLP, Near Raushan Pharma<br/>
+              Selaqui, Dehradun, Uttarakhand, 248011
             </p>
           </div>
           
-          {/* Column 2: Main Menu */}
+
+          {/* Column 2: Legal */}
           <div>
-            <h4 className="font-bold text-black text-xl mb-6">Main Menu</h4>
-            <ul className="flex flex-col gap-4 font-semibold text-[#5a5a5a]">
-              <li><Link href="/products" className="hover:text-primary transition-colors">Shop</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Blogs</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Why Choose Vigor?</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Lab Reports</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Know Your Products</Link></li>
-              <li><Link href="#" className="hover:text-primary transition-colors">Career</Link></li>
-              <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="/contact" className="hover:text-primary transition-colors">Contact Us</Link></li>
-            </ul>
-          </div>
-          
-          {/* Column 3: Legal */}
-          <div>
-            <h4 className="font-bold text-black text-xl mb-6">Legal</h4>
+            <h4 className="font-bold text-black text-xl mb-6 uppercase tracking-wide">Legal</h4>
             <ul className="flex flex-col gap-4 font-semibold text-[#5a5a5a]">
               <li><Link href="/terms" className="underline hover:text-primary transition-colors">Terms and Conditions</Link></li>
               <li><Link href="/privacy" className="underline hover:text-primary transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/shipping" className="underline hover:text-primary transition-colors">Shipping Policy</Link></li>
             </ul>
           </div>
           
-          {/* Column 4: Contact */}
+          {/* Column 3: Contact */}
           <div>
             <h4 className="font-bold text-black text-xl mb-6 uppercase tracking-wide">Contact Us :</h4>
             <ul className="flex flex-col gap-3 font-semibold text-[#5a5a5a] mb-8">
               <li>Phone no: <a href="tel:01141193222" className="underline hover:text-primary transition-colors">+1 (800) 123-4567</a></li>
-              <li>Email: <a href="mailto:contact@vigor.com" className="underline hover:text-primary transition-colors">contact@vigor.com</a></li>
+              <li>Email: <a href="mailto:contact@vigorlifecare.com" className="underline hover:text-primary transition-colors">contact@vigorlifecare.com</a></li>
             </ul>
             
             <div className="flex gap-4 text-2xl text-black">
@@ -94,16 +79,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Orange Strip */}
-      <div className="relative z-20 bg-[#F57C00] text-white py-3 text-center text-sm font-semibold flex items-center justify-center gap-2">
-        <span>Vigor Loyalty Club</span>
-        <span className="opacity-60">|</span>
-        <span className="flex items-center gap-2">
-          <div className="w-5 h-5 bg-white text-[#F57C00] rounded-full flex items-center justify-center font-bold text-xs">P</div> 
-          Get upto 10% Off using POPCoins <i className="ph-bold ph-arrow-right"></i>
-        </span>
-      </div>
       
+
       {/* WhatsApp Floating Button */}
       <a href="https://wa.me/18001234567" target="_blank" rel="noopener noreferrer" className="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center text-3xl shadow-lg hover:-translate-y-1 transition-transform z-50">
         <i className="ph-fill ph-whatsapp-logo"></i>
