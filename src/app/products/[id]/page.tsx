@@ -74,9 +74,9 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
   }
 
   return (
-    <div className="pt-32 pb-24 bg-surface min-h-screen">
+    <div className="pt-40 md:pt-44 pb-24 bg-surface min-h-screen">
       <div className="w-full max-w-[1280px] mx-auto px-6">
-        <Link href="/products" className="inline-flex items-center font-medium text-text-muted hover:text-primary transition-colors mb-12 animate-in fade-in slide-in-from-left-8 duration-700">
+        <Link href="/products" className="inline-flex items-center font-medium text-text-muted hover:text-primary transition-colors mb-6 animate-in fade-in slide-in-from-left-8 duration-700">
           <i className="ph-bold ph-arrow-left mr-2"></i> Back to Products
         </Link>
         
@@ -92,12 +92,12 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
             </div>
             
             {/* Product Info */}
-            <div className="p-10 md:p-16 flex flex-col justify-center">
-              <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-xs font-bold uppercase tracking-wider text-primary mb-6 w-max">
+            <div className="p-8 md:p-10 flex flex-col justify-center">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-xs font-bold uppercase tracking-wider text-primary mb-3 w-max">
                 {product.category}
               </span>
               
-              <h1 className="font-heading text-4xl md:text-5xl font-bold mb-6 text-text-dark leading-tight pb-8 border-b border-black/5">
+              <h1 className="font-heading text-4xl md:text-5xl font-bold mb-4 text-text-dark leading-tight pb-4 border-b border-black/5">
                 {product.name.includes("Sky Soft") ? (
                   <>
                     <mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm">Sky Soft</mark>
@@ -126,14 +126,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
                 </ul>
               </div>
               
-              <div className="mt-auto pt-8 flex gap-4">
-                <button className="flex-1 py-4 rounded-xl font-heading font-semibold text-lg text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-1 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
-                  Add to Cart
-                </button>
-                <button className="w-16 flex items-center justify-center rounded-xl border-2 border-black/10 text-text-muted hover:border-primary hover:text-primary transition-colors">
-                  <i className="ph-bold ph-heart text-2xl"></i>
-                </button>
-              </div>
+
             </div>
             
           </div>
