@@ -10,11 +10,32 @@ export default function Home() {
       {/* Hero Section */}
       <HeroSlider />
 
+      {/* Trademark Section */}
+      <section className="bg-primary/5 py-16 border-b border-primary/10 animate-in fade-in duration-1000">
+        <div className="w-full max-w-[1280px] mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-10">
+          <div className="w-full md:w-1/3 flex justify-center">
+            <div className="bg-white p-3 rounded-2xl shadow-xl rotate-[-2deg] hover:rotate-0 transition-all duration-500 hover:scale-105">
+              <img src="/trademark.jpg" alt="Eggy Nutritior Trademark Registration" className="w-full h-auto rounded-xl border border-gray-100 object-cover" />
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 text-center md:text-left">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary mb-4">
+              <i className="ph-fill ph-certificate text-lg"></i>
+              <span className="font-semibold text-sm uppercase tracking-wider">Registered Trademark</span>
+            </div>
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">Official Owners of Eggy Nutritior™</h2>
+            <p className="text-lg text-slate-700 leading-relaxed">
+              We are the proud owners of the officially registered trademark for <strong className="text-primary font-bold">Eggy Nutritior™</strong> (Class 29). This certification reflects our unwavering commitment to providing premium quality eggs, poultry, and nutritional products with uncompromising standards.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-surface">
         <div className="w-full max-w-[1280px] mx-auto px-6">
           <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-8 duration-1000">
-            <h2 className="font-heading text-4xl font-bold mb-4">Why Choose <span className="text-primary">Vigor</span>?</h2>
+            <h2 className="font-heading text-4xl font-bold mb-4">Why Choose <span className="text-primary">Vigor Life Care LLP</span>?</h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto">We merge rigorous quality standards with a deep commitment to your holistic health.</p>
           </div>
           
@@ -97,7 +118,7 @@ export default function Home() {
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Hygiene</span>
-                <h3 className="font-heading text-xl font-bold mb-3">Ultra-Soft Sanitary Pads</h3>
+                <h3 className="font-heading text-xl font-bold mb-3"><mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm">Sky Soft</mark> Sanitary Pads</h3>
                 <p className="text-text-muted text-sm mb-6 flex-grow">Advanced absorption technology with a breathable, skin-friendly cotton top layer.</p>
                 <Link href="/products" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
                   Learn More <i className="ph-bold ph-arrow-right"></i>

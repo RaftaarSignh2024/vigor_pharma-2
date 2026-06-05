@@ -16,7 +16,7 @@ export default function TermsAndConditions() {
           
           <h2 className="text-2xl font-bold text-black mt-8 mb-4">1. Introduction</h2>
           <p className="mb-4">
-            Welcome to Vigor Life Care LLP. These terms and conditions outline the rules and regulations for the use of Vigor's Website and services.
+            Welcome to Vigor Life Care LLP. These terms and conditions outline the rules and regulations for the use of Vigor Life Care LLP's Website and services.
           </p>
           
           <h2 className="text-2xl font-bold text-black mt-8 mb-4">2. Intellectual Property Rights</h2>

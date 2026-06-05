@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Products() {
   return (
@@ -16,54 +17,30 @@ export default function Products() {
               <p className="text-lg text-text-muted max-w-2xl mx-auto">Fuel your body with the highest quality protein sources.</p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {/* Product 1 */}
-              <div id="whole-eggs" className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
-                <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
-                  <img src="https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?auto=format&fit=crop&q=80&w=600" alt="Farm Fresh Eggs" className="w-full h-full object-cover" />
+              <Link href="/products/egg-whites-powder" id="egg-whites-powder" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
+                <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
+                  <img src="/egg_whites_powder.png" alt="Premium Egg Whites Powder" className="w-full h-full object-cover" />
                 </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Nutrition</span>
-                  <h3 className="font-heading text-xl font-bold mb-3">Farm Fresh Whole Eggs</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">Rich in omega-3 and essential vitamins. Sourced directly from our ethical farms where hens roam freely.</p>
-                  <div className="flex justify-between items-center mt-4 pt-4 border-t border-black/5">
-                    <span className="text-xl font-bold text-text-dark">$4.99 <span className="text-sm font-normal text-text-muted">/ dozen</span></span>
-                    <button className="px-4 py-2 rounded-full font-semibold text-sm text-primary bg-transparent border-2 border-primary hover:bg-primary hover:text-white transition-all duration-300">Add to Cart</button>
-                  </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Fitness & Recovery</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Premium Egg Whites Powder</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">100% pure protein powerhouse in a convenient powder form. Zero fat and zero cholesterol. Perfect for athletes, smoothies, and fitness enthusiasts.</p>
                 </div>
-              </div>
+              </Link>
               
               {/* Product 2 */}
-              <div id="egg-whites" className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
-                <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
-                  <img src="/liquid_egg_white.png" alt="Liquid Egg White" className="w-full h-full object-cover" />
+              <Link href="/products/egg-yolks-powder" id="egg-yolks-powder" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
+                <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
+                  <img src="/egg_yolks_powder.png" alt="Rich Egg Yolks Powder" className="w-full h-full object-cover" />
                 </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Fitness</span>
-                  <h3 className="font-heading text-xl font-bold mb-3">Pure Egg Whites (Pasteurized)</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">100% pure protein powerhouse. Zero fat and zero cholesterol. Perfect for athletes and fitness enthusiasts.</p>
-                  <div className="flex justify-between items-center mt-4 pt-4 border-t border-black/5">
-                    <span className="text-xl font-bold text-text-dark">$6.50 <span className="text-sm font-normal text-text-muted">/ 500ml</span></span>
-                    <button className="px-4 py-2 rounded-full font-semibold text-sm text-primary bg-transparent border-2 border-primary hover:bg-primary hover:text-white transition-all duration-300">Add to Cart</button>
-                  </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Culinary & Baking</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Rich Egg Yolks Powder</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">Dense in essential nutrients like Vitamin D and Choline. Ideal for premium baking, sauces, culinary arts, and long-term shelf stability.</p>
                 </div>
-              </div>
-              
-              {/* Product 3 */}
-              <div id="egg-yolks" className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
-                <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
-                  <img src="/egg_yolk.png" alt="Egg Yolk" className="w-full h-full object-cover" />
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Culinary</span>
-                  <h3 className="font-heading text-xl font-bold mb-3">Rich Egg Yolks (Pasteurized)</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">Dense in essential nutrients like Vitamin D and Choline. Ideal for premium baking, sauces, and culinary arts.</p>
-                  <div className="flex justify-between items-center mt-4 pt-4 border-t border-black/5">
-                    <span className="text-xl font-bold text-text-dark">$7.00 <span className="text-sm font-normal text-text-muted">/ 500ml</span></span>
-                    <button className="px-4 py-2 rounded-full font-semibold text-sm text-primary bg-transparent border-2 border-primary hover:bg-primary hover:text-white transition-all duration-300">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -75,21 +52,29 @@ export default function Products() {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              {/* Product 4 */}
-              <div id="sanitary-pads" className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
+              {/* Product 3 (Sanitary Pads) */}
+              <Link href="/products/sanitary-pads" id="sanitary-pads" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
                   <img src="/sanitary_pads.png" alt="Sanitary Pads" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Hygiene</span>
-                  <h3 className="font-heading text-2xl font-bold mb-4">Ultra-Soft Sanitary Pads (Day/Night Pack)</h3>
+                  <h3 className="font-heading text-2xl font-bold mb-4"><mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm">Sky Soft</mark> Sanitary Pads (Day/Night Pack)</h3>
                   <p className="text-text-muted mb-8 flex-grow">Advanced absorption technology with a breathable, 100% organic cotton top layer. Designed to prevent irritation while offering maximum leak-proof protection for up to 12 hours. Dermatologically tested and safe for sensitive skin.</p>
-                  <div className="flex justify-between items-center mt-4 pt-6 border-t border-black/5">
-                    <span className="text-2xl font-bold text-text-dark">$8.99 <span className="text-sm font-normal text-text-muted">/ pack of 20</span></span>
-                    <button className="px-6 py-3 rounded-full font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">Add to Cart</button>
-                  </div>
                 </div>
-              </div>
+              </Link>
+              
+              {/* Product 4 (Baby Diapers) */}
+              <Link href="/products/baby-diapers" id="baby-diapers" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
+                <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
+                  <img src="/baby_diapers.png" alt="Premium Baby Diapers" className="w-full h-full object-cover" />
+                </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Baby Care</span>
+                  <h3 className="font-heading text-2xl font-bold mb-4"><mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm">Sky Soft</mark> Baby Diapers (Ultra Soft)</h3>
+                  <p className="text-text-muted mb-8 flex-grow">Provide unparalleled comfort for your little one. Features a super-absorbent core, wetness indicator, and hypoallergenic materials free from harsh chemicals. Guaranteed to keep delicate skin dry and rash-free all night long.</p>
+                </div>
+              </Link>
             </div>
           </div>
 

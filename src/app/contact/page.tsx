@@ -44,13 +44,13 @@ export default function Contact() {
                     <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                       <i className="ph-fill ph-envelope-simple"></i>
                     </div>
-                    <p className="text-text-muted pt-1">contact@vigorlifecare.com</p>
+                    <p className="text-text-muted pt-1">vigorlifecare@gmail.com</p>
                   </div>
                   <div className="flex items-start gap-4">
                     <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                       <i className="ph-fill ph-phone"></i>
                     </div>
-                    <p className="text-text-muted pt-1">+1 (800) 123-4567</p>
+                    <p className="text-text-muted pt-1">+91 9012365676</p>
                   </div>
                 </div>
               </div>
@@ -69,13 +69,13 @@ export default function Contact() {
                     <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                       <i className="ph-fill ph-envelope-simple"></i>
                     </div>
-                    <p className="text-text-muted pt-1">contact_gs_enterprises@vigorlifecare.com</p>
+                    <p className="text-text-muted pt-1">gsenterprises3095@gmail.com</p>
                   </div>
                   <div className="flex items-start gap-4">
                     <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                       <i className="ph-fill ph-phone"></i>
                     </div>
-                    <p className="text-text-muted pt-1">+1 (888) 987-6543</p>
+                    <p className="text-text-muted pt-1">+91 7302365676</p>
                   </div>
                 </div>
               </div>
@@ -89,19 +89,19 @@ export default function Contact() {
                       <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                         <i className="ph-fill ph-map-pin"></i>
                       </div>
-                      <p className="text-text-muted pt-1">789 Country Road, Valley Farm<br />Austin, TX 78701</p>
+                      <p className="text-text-muted pt-1">G.S Enterprises, Khasra no. 177/1, Shop No.2, P.O. Karuna Chakkan<br />Tehsil - Baddi, Solan, Himachal Pradesh, 173205</p>
                     </div>
                     <div className="flex items-start gap-4">
                       <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                         <i className="ph-fill ph-envelope-simple"></i>
                       </div>
-                      <p className="text-text-muted pt-1">contact_cf_natural_farms@vigorlifecare.com</p>
+                      <p className="text-text-muted pt-1">cfnaturallayfarmsllp@gmail.com</p>
                     </div>
                     <div className="flex items-start gap-4">
                       <div className="p-2 bg-primary/10 rounded-full text-primary shrink-0">
                         <i className="ph-fill ph-phone"></i>
                       </div>
-                      <p className="text-text-muted pt-1">+1 (800) 555-0199</p>
+                      <p className="text-text-muted pt-1">+91 9012365676</p>
                     </div>
                   </div>
                 </div>

@@ -29,15 +29,15 @@ const slides: Slide[] = [
   {
     id: 3,
     imageUrl: "/slider_sanitary_pads.png",
-    alt: "Ultra-Soft Sanitary Pads",
-    title: "Ultra-Soft Sanitary Pads",
+    alt: "Sky Soft Sanitary Pads",
+    title: "Sky Soft Sanitary Pads",
     subtitle: "Advanced absorption with a breathable, skin-friendly layer for ultimate comfort."
   },
   {
     id: 4,
     imageUrl: "/slider_baby_diapers.png",
-    alt: "Premium Baby Diapers",
-    title: "Premium Baby Diapers",
+    alt: "Sky Soft Baby Diapers",
+    title: "Sky Soft Baby Diapers",
     subtitle: "Gentle on skin, offering maximum protection and coziness for your little ones."
   }
 ];
@@ -66,7 +66,7 @@ export default function HeroSlider() {
   };
 
   return (
-    <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden bg-gray-100 group mt-[144px] md:mt-[160px]">
+    <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden bg-gray-100 group mt-[120px] md:mt-[136px]">
       {/* Slides */}
       <div 
         className="flex transition-transform duration-700 ease-out h-full"
@@ -85,7 +85,14 @@ export default function HeroSlider() {
                 <div className="max-w-2xl text-white animate-in slide-in-from-bottom-8 duration-1000">
                   {slide.title && (
                     <h2 className="font-heading text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
-                      {slide.title}
+                      {slide.title.includes("Sky Soft") ? (
+                        <>
+                          <mark className="bg-yellow-400 text-black px-3 py-1 rounded-sm font-bold shadow-md">Sky Soft</mark>
+                          {slide.title.split("Sky Soft")[1]}
+                        </>
+                      ) : (
+                        slide.title
+                      )}
                     </h2>
                   )}
                   {slide.subtitle && (

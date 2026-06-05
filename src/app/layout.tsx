@@ -16,7 +16,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Vigor - Premium Health & Wellness",
+  title: "Vigor Life Care LLP - Premium Health & Wellness",
   description: "Discover premium nutrition and hygiene products. High-quality eggs and advanced sanitary pads.",
 };
 

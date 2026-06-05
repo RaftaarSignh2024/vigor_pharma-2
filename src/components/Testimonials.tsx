@@ -21,7 +21,7 @@ const testimonials = [
     id: 3,
     name: "Emily Rodriguez",
     role: "Maternal Health Advocate",
-    quote: "The ultra-soft sanitary pads and baby diapers are incredibly gentle and reliable. It's refreshing to see a brand focus so much on premium care.",
+    quote: "The <mark className=\"bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm mx-1\">Sky Soft</mark> sanitary pads and baby diapers are incredibly gentle and reliable. It's refreshing to see a brand focus so much on premium care.",
     image: "https://randomuser.me/api/portraits/women/68.jpg"
   }
 ];

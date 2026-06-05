@@ -70,10 +70,10 @@ export default function Navbar() {
         </div>
       </div>
 
-      <nav className={`w-full transition-all duration-300 ${isScrolled ? "py-3 bg-white/90 backdrop-blur-md shadow-sm" : "py-5 glass"}`}>
+      <nav className={`w-full transition-all duration-300 ${isScrolled ? "py-1 bg-white/90 backdrop-blur-md shadow-sm" : "py-2 glass"}`}>
         <div className="w-full max-w-[1280px] mx-auto px-6 flex justify-between items-center relative">
-        <Link href="/" className="relative h-16 md:h-20 w-40 md:w-48 shrink-0 flex items-center overflow-hidden">
-          <Image src="/logo.png" alt="Vigor Logo" fill className="object-contain scale-[1.3] md:scale-[1.5] origin-left mix-blend-multiply" priority />
+        <Link href="/" className="relative h-16 md:h-20 w-48 shrink-0 flex items-center">
+          <img src="/logo.png" alt="Vigor Life Care LLP Logo" className="absolute top-1/2 -translate-y-1/2 left-10 md:left-16 h-16 md:h-[90px] w-auto object-contain mix-blend-multiply max-w-none" />
         </Link>
 
         {/* Desktop Menu */}

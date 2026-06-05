@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -31,7 +32,7 @@ export default function About() {
             <div className="animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
               <h2 className="font-heading text-4xl font-bold mb-6">A Commitment to <span className="text-primary">Excellence</span></h2>
               <p className="text-text-muted mb-6 text-lg">
-                At Vigor, we believe that true wellness encompasses what you put into your body and how you care for it externally. That's why we've pioneered a unique approach, offering top-tier nutritional staples alongside premium personal care items.
+                At Vigor Life Care LLP, we believe that true wellness encompasses what you put into your body and how you care for it externally. That's why we've pioneered a unique approach, offering top-tier nutritional staples alongside premium personal care items.
               </p>
               <p className="text-text-muted mb-10 text-lg">
                 Whether it's ensuring our farm-fresh eggs are packed with vital nutrients, or designing sanitary pads that offer unparalleled comfort and protection, our uncompromising standards remain the same.
@@ -72,7 +73,12 @@ export default function About() {
                   <i className="ph-fill ph-heartbeat"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-4">Vigor Life Care LLP</h3>
-                <p className="text-text-muted text-lg leading-relaxed">Dedicated to pioneering healthcare solutions and premium personal care products that enhance everyday well-being and hygiene.</p>
+                <p className="text-text-muted text-lg leading-relaxed mb-6">
+                  Vigor Life Care LLP is steadfastly committed to redefining modern health and wellness, seamlessly integrating cutting-edge nutritional science with advanced personal hygiene solutions.
+                </p>
+                <Link href="/company/vigor-life-care" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
+                  View More
+                </Link>
               </div>
             </div>
             
@@ -86,7 +92,12 @@ export default function About() {
                   <i className="ph-fill ph-storefront"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-4">GS Enterprises</h3>
-                <p className="text-text-muted text-lg leading-relaxed">Our robust distribution and trading arm, ensuring seamless supply chains and delivering excellence across markets worldwide.</p>
+                <p className="text-text-muted text-lg leading-relaxed mb-6">
+                  GS Enterprises is our dedicated pharmaceutical consulting firm, providing expert guidance, regulatory insights, and strategic solutions for the dynamic healthcare and pharma sectors.
+                </p>
+                <Link href="/company/gs-enterprises" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
+                  View More
+                </Link>
               </div>
             </div>
             
@@ -100,7 +111,12 @@ export default function About() {
                   <i className="ph-fill ph-plant"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-4">CF Natural Lay Farms LLP</h3>
-                <p className="text-text-muted text-lg leading-relaxed">Committed to sustainable agriculture and providing farm-fresh, nutritionally rich produce right from nature to your table.</p>
+                <p className="text-text-muted text-lg leading-relaxed mb-6">
+                  CF Natural Lay Farms LLP is our dedicated egg production farm, embodying our profound commitment to sustainable agriculture and the ethical, eco-conscious cultivation of premium-quality eggs.
+                </p>
+                <Link href="/company/cf-natural-farms" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
