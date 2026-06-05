@@ -15,10 +15,8 @@ export default function Footer() {
           
           {/* Column 1: Company Info */}
           <div className="md:col-span-12 lg:col-span-4">
-            <Link href="/" className="inline-block bg-white p-2 rounded-xl shadow-lg mb-6 hover:scale-105 transition-transform duration-300 overflow-hidden">
-              <div className="relative h-20 w-32 md:h-24 md:w-40">
-                <Image src="/logo.png" alt="Vigor Life Care LLP Logo" fill className="object-contain scale-[1.4] md:scale-[1.5] origin-center" />
-              </div>
+            <Link href="/" className="inline-block bg-white p-3 rounded-xl shadow-lg mb-6 hover:scale-105 transition-transform duration-300">
+              <img src="/logo.png" alt="Vigor Life Care LLP Logo" className="h-16 md:h-20 w-auto object-contain" />
             </Link>
             <p className="leading-relaxed text-slate-400 text-base mb-8 max-w-md">
               Elevating your lifestyle with top-tier nutritional staples and premium personal care items. We believe in true wellness from the inside out.
