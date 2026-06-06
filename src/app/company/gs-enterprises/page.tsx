@@ -3,19 +3,19 @@ import Image from "next/image";
 export default function GSEnterprisesDetails() {
   const timelineEvents = [
     {
-      year: "2018",
+      year: "2020",
       title: "Company Registration",
-      description: "GS Enterprises was officially registered with a vision to redefine pharmaceutical consulting and strategic healthcare solutions.",
+      description: "GS Enterprises was officially registered in 2020 with a vision to redefine pharmaceutical consulting and strategic healthcare solutions.",
       icon: "ph-buildings"
     },
     {
-      year: "2019",
+      year: "2021",
       title: "Building Expert Networks",
       description: "Successfully established a robust network of industry experts to provide unparalleled regulatory and compliance guidance.",
       icon: "ph-users-three"
     },
     {
-      year: "2021",
+      year: "2023",
       title: "Advanced Strategic Solutions",
       description: "Expanded our consulting services to cover product lifecycle management and complex healthcare market strategies.",
       icon: "ph-strategy"

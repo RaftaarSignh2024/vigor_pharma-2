@@ -3,19 +3,19 @@ import Image from "next/image";
 export default function VigorLifeCareDetails() {
   const timelineEvents = [
     {
-      year: "2015",
+      year: "2024",
       title: "Company Registration",
-      description: "Vigor Life Care LLP was officially registered with a vision to redefine modern health and wellness.",
+      description: "Vigor Life Care LLP was officially registered in 2024 with a vision to redefine modern health and wellness.",
       icon: "ph-buildings"
     },
     {
-      year: "2018",
+      year: "2024",
       title: "First Major Product Line",
       description: "Successfully launched our flagship range of nutritional staples, gaining significant traction in the domestic market.",
       icon: "ph-package"
     },
     {
-      year: "2020",
+      year: "2025",
       title: "Expansion into Personal Care",
       description: "Diversified our portfolio to include state-of-the-art personal hygiene solutions, completing our holistic wellness approach.",
       icon: "ph-sparkle"
@@ -73,7 +73,9 @@ export default function VigorLifeCareDetails() {
         <div className="w-full max-w-[1000px] mx-auto px-6 relative z-10">
           <div className="text-center mb-20 animate-in fade-in slide-in-from-bottom-8 duration-1000">
             <h2 className="font-heading text-4xl font-bold mb-4">Our <span className="text-primary">Journey</span></h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto">From our inception to our current global presence, explore the milestones that built our legacy.</p>
+            <p className="text-lg text-text-muted max-w-2xl mx-auto">
+              Founded in 2024 by visionary leaders Mr. Gajendra Kumar and Mr. Sudheer, Vigor Life Care began with a commitment to revolutionize the pharmaceutical and wellness industry. Explore the milestones that have defined our path to excellence.
+            </p>
           </div>
 
           <div className="relative">

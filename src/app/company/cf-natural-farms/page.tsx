@@ -3,25 +3,25 @@ import Image from "next/image";
 export default function CFNaturalFarmsDetails() {
   const timelineEvents = [
     {
-      year: "2020",
+      year: "2025",
       title: "Company Registration",
-      description: "CF Natural Lay Farms LLP was officially registered with a dedication to sustainable agriculture.",
+      description: "CF Natural Lay Farms LLP was officially registered in 2025 with a dedication to sustainable agriculture.",
       icon: "ph-buildings"
     },
     {
-      year: "2021",
+      year: "2025",
       title: "First Farm Establishment",
       description: "Successfully acquired and developed our first eco-conscious farming facility.",
       icon: "ph-tree"
     },
     {
-      year: "2023",
+      year: "2026",
       title: "Scaling Production",
       description: "Expanded our operations to meet the growing demand for ethically cultivated, high-quality nutritional sources.",
       icon: "ph-chart-line-up"
     },
     {
-      year: "2024",
+      year: "2026",
       title: "Trademark Registration",
       description: "Successfully registered the trademark 'Eggy Nutritior' under Class 29, cementing our commitment to quality egg and poultry products.",
       icon: "ph-certificate"

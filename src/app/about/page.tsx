@@ -72,7 +72,8 @@ export default function About() {
                 <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
                   <i className="ph-fill ph-heartbeat"></i>
                 </div>
-                <h3 className="font-heading text-3xl font-bold mb-4">Vigor Life Care LLP</h3>
+                <h3 className="font-heading text-3xl font-bold mb-2">Vigor Life Care LLP</h3>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase text-primary">Founders: Mr. Gajendra Kumar & Mr. Sudheer</div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
                   Vigor Life Care LLP is steadfastly committed to redefining modern health and wellness, seamlessly integrating cutting-edge nutritional science with advanced personal hygiene solutions.
                 </p>
@@ -91,7 +92,8 @@ export default function About() {
                 <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
                   <i className="ph-fill ph-storefront"></i>
                 </div>
-                <h3 className="font-heading text-3xl font-bold mb-4">GS Enterprises</h3>
+                <h3 className="font-heading text-3xl font-bold mb-2">GS Enterprises</h3>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase text-primary">Founder: Mr. Gajendra Kumar</div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
                   GS Enterprises is our dedicated pharmaceutical consulting firm, providing expert guidance, regulatory insights, and strategic solutions for the dynamic healthcare and pharma sectors.
                 </p>
@@ -110,7 +112,8 @@ export default function About() {
                 <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
                   <i className="ph-fill ph-plant"></i>
                 </div>
-                <h3 className="font-heading text-3xl font-bold mb-4">CF Natural Lay Farms LLP</h3>
+                <h3 className="font-heading text-3xl font-bold mb-2">CF Natural Lay Farms LLP</h3>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase text-primary">Founders: Mr. Gajendra Kumar & Mr. Nitin Iyer</div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
                   CF Natural Lay Farms LLP is our dedicated egg production farm, embodying our profound commitment to sustainable agriculture and the ethical, eco-conscious cultivation of premium-quality eggs.
                 </p>

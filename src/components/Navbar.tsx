@@ -47,23 +47,23 @@ export default function Navbar() {
           <div className="flex-1 overflow-hidden ml-8 relative flex items-center h-full mask-linear-edges">
             <div className="custom-marquee whitespace-nowrap flex items-center text-sm font-medium w-max">
               {/* First half */}
-              <span className="mx-8">30% Off | On Minimum Purchase of ₹5000</span>
+              <span className="mx-8">🌱 Safe & Gentle for Daily Use</span>
               <span className="mx-8 opacity-50">──────</span>
-              <span className="mx-8">15% Off | On Minimum Purchase of ₹2500</span>
+              <span className="mx-8">🌿 100% Premium Quality Products</span>
               <span className="mx-8 opacity-50">──────</span>
-              <span className="mx-8">30% Off | On Minimum Purchase of ₹5000</span>
+              <span className="mx-8">🛡️ Trusted by Healthcare Professionals</span>
               <span className="mx-8 opacity-50">──────</span>
-              <span className="mx-8">15% Off | On Minimum Purchase of ₹2500</span>
+              <span className="mx-8">⭐ Experience True Wellness</span>
               <span className="mx-8 opacity-50">──────</span>
               
               {/* Second half (duplicate for smooth infinite loop) */}
-              <span className="mx-8">30% Off | On Minimum Purchase of ₹5000</span>
+              <span className="mx-8">🌱 Safe & Gentle for Daily Use</span>
               <span className="mx-8 opacity-50">──────</span>
-              <span className="mx-8">15% Off | On Minimum Purchase of ₹2500</span>
+              <span className="mx-8">🌿 100% Premium Quality Products</span>
               <span className="mx-8 opacity-50">──────</span>
-              <span className="mx-8">30% Off | On Minimum Purchase of ₹5000</span>
+              <span className="mx-8">🛡️ Trusted by Healthcare Professionals</span>
               <span className="mx-8 opacity-50">──────</span>
-              <span className="mx-8">15% Off | On Minimum Purchase of ₹2500</span>
+              <span className="mx-8">⭐ Experience True Wellness</span>
               <span className="mx-8 opacity-50">──────</span>
             </div>
           </div>
