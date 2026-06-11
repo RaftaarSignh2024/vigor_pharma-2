@@ -71,7 +71,7 @@ const products = {
     description: "Provide unparalleled comfort for your little one. Features a super-absorbent core, wetness indicator, and hypoallergenic materials free from harsh chemicals. Guaranteed to keep delicate skin dry and rash-free all night long.",
     price: "$12.50",
     unit: "pack of 30",
-    image: "/premium_baby_diapers.png",
+    image: "/diaper_m.jpg",
     features: [
       "Super-Absorbent Core",
       "Wetness Indicator",

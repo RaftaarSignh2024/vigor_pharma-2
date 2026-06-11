@@ -116,7 +116,7 @@ export default function Products() {
               {/* Product 4 (Baby Diapers) */}
               <Link href="/products/baby-diapers" id="baby-diapers" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5 p-6">
-                  <img src="/premium_baby_diapers.png" alt="Premium Baby Diapers" className="w-full h-full object-cover mix-blend-multiply rounded-t-3xl" />
+                  <img src="/diaper_m.jpg" alt="Premium Baby Diapers" className="w-full h-full object-contain mix-blend-multiply" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Baby Care</span>
