@@ -71,7 +71,7 @@ export default function Navbar() {
       </div>
 
       <nav className={`w-full transition-all duration-300 ${isScrolled ? "py-1 bg-white/90 backdrop-blur-md shadow-sm" : "py-2 glass"}`}>
-        <div className="w-full max-w-[1280px] mx-auto px-6 flex justify-between items-center relative">
+        <div className="w-full max-w-[1280px] mx-auto px-6 flex justify-between items-center relative z-50">
         <Link href="/" className="relative h-16 md:h-20 w-48 shrink-0 flex items-center">
           <img src="/logo.png" alt="Vigor Life Care LLP Logo" className="absolute top-1/2 -translate-y-1/2 left-10 md:left-16 h-16 md:h-[90px] w-auto object-contain mix-blend-multiply max-w-none" />
         </Link>
@@ -97,6 +97,14 @@ export default function Navbar() {
           <i className={isMobileMenuOpen ? "ph ph-x" : "ph ph-list"}></i>
         </button>
       </div>
+
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div 
+          className="md:hidden fixed inset-0 bg-black/20 z-30"
+          onClick={() => setIsMobileMenuOpen(false)}
+        />
+      )}
 
       {/* Mobile Menu */}
       <div className={`md:hidden fixed top-0 right-0 w-72 h-screen bg-surface shadow-[-10px_0_30px_rgba(0,0,0,0.1)] flex flex-col p-8 pt-24 gap-6 transition-all duration-400 ease-in-out z-40 ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}>

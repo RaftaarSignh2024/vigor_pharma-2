@@ -3,6 +3,8 @@ import Image from "next/image";
 import HeroSlider from "@/components/HeroSlider";
 import LabTestProcess from "@/components/LabTestProcess";
 import Testimonials from "@/components/Testimonials";
+import OrangeYolkSection from "@/components/OrangeYolkSection";
+import OurStorySection from "@/components/OurStorySection";
 
 export default function Home() {
   return (
@@ -113,8 +115,8 @@ export default function Home() {
             
             {/* Product 3 */}
             <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
-              <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
-                <img src="/sanitary_pads.png" alt="Sanitary Pads" className="w-full h-full object-cover" />
+              <div className="w-full h-60 relative bg-gray-100 border-b border-black/5 p-4">
+                <img src="/sanitary_pads_s.jpg" alt="Sanitary Pads" className="w-full h-full object-contain mix-blend-multiply" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Hygiene</span>
@@ -137,6 +139,12 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <Testimonials />
+
+      {/* Our Story Section */}
+      <OurStorySection />
+
+      {/* Orange Yolk Section */}
+      <OrangeYolkSection />
     </>
   );
 }
