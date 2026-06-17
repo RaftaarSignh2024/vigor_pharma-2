@@ -89,13 +89,26 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
-        <button 
-          className="md:hidden text-2xl text-text-dark focus:outline-none"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          <i className={isMobileMenuOpen ? "ph ph-x" : "ph ph-list"}></i>
-        </button>
+        {/* Right Actions */}
+        <div className="flex items-center gap-4">
+          <a 
+            href="https://wa.me/919012365676" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hidden md:flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-full font-semibold hover:bg-[#128c7e] transition-all hover:scale-105 shadow-md"
+          >
+            <i className="ph-fill ph-whatsapp-logo text-xl"></i>
+            <span>WhatsApp Us</span>
+          </a>
+
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-2xl text-text-dark focus:outline-none"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <i className={isMobileMenuOpen ? "ph ph-x" : "ph ph-list"}></i>
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu Overlay */}

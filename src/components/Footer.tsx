@@ -35,7 +35,8 @@ export default function Footer() {
             <ul className="flex flex-col gap-4 font-medium text-slate-400 text-base">
               <li><Link href="/" className="hover:text-orange-400 transition-colors flex items-center gap-2 group"><i className="ph-bold ph-caret-right text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></i> Home</Link></li>
               <li><Link href="/about" className="hover:text-orange-400 transition-colors flex items-center gap-2 group"><i className="ph-bold ph-caret-right text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></i> About Us</Link></li>
-              <li><Link href="/contact" className="hover:text-orange-400 transition-colors flex items-center gap-2 group"><i className="ph-bold ph-caret-right text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></i> Contact</Link></li>
+              <li><Link href="/products" className="hover:text-orange-400 transition-colors flex items-center gap-2 group"><i className="ph-bold ph-caret-right text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></i> Products</Link></li>
+              <li><Link href="/contact" className="hover:text-orange-400 transition-colors flex items-center gap-2 group"><i className="ph-bold ph-caret-right text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></i> Contact Us</Link></li>
             </ul>
           </div>
 

@@ -10,7 +10,7 @@ export default function OrangeYolkSection() {
       <div className="w-full max-w-[1280px] mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           <h2 className="font-heading text-3xl md:text-5xl font-black uppercase tracking-tight text-[#3d2c23]">
-            THE SECRET BEHIND OUR <span className="text-[#f58d20]">ORANGE YOLK</span>
+            THE SECRET BEHIND OUR <span className="text-[#f58d20]">PREMIUM QUALITY</span>
           </h2>
         </div>
 
@@ -32,27 +32,27 @@ export default function OrangeYolkSection() {
             <ul className="space-y-5 text-[1.1rem] leading-relaxed text-[#3d2c23] font-medium">
               <li className="flex items-start gap-4 group">
                 <div className="mt-1.5 min-w-[8px] h-[8px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Our hens are fed a pure herbal and natural diet.</span>
+                <span>Our products are formulated using the purest, scientifically validated ingredients.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-1.5 min-w-[8px] h-[8px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Feed includes maize, rice, soya DOC, mustard DOC, sunflower DOC and rice bran.</span>
+                <span>We source high-grade raw materials to ensure maximum efficacy and safety.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-1.5 min-w-[8px] h-[8px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Natural ingredients like marigold extract help develop a bright orange yolk.</span>
+                <span>Advanced manufacturing processes help maintain the integrity of our formulations.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-1.5 min-w-[8px] h-[8px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>The balanced feed is rich in essential amino acids and Omega-3.</span>
+                <span>Each product is carefully crafted to deliver essential nutrients and wellness-boosting compounds.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-1.5 min-w-[8px] h-[8px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Healthy hens produce eggs that are more nutritious and fresh.</span>
+                <span>Our rigorous quality control ensures every batch meets stringent healthcare standards.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-1.5 min-w-[8px] h-[8px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Orange yolk eggs also contain natural antioxidants that support overall wellness.</span>
+                <span>We are committed to delivering natural, antioxidant-rich solutions that support your overall wellbeing.</span>
               </li>
             </ul>
           </div>

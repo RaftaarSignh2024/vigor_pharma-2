@@ -31,29 +31,29 @@ export default function OurStorySection() {
           {/* Content */}
           <div className="w-full md:w-1/2 flex flex-col justify-center animate-in fade-in slide-in-from-right-8 duration-1000 delay-200 pt-4">
             <h3 className="font-heading text-3xl md:text-4xl font-black uppercase tracking-tight text-[#2d3748] mb-8 leading-tight">
-              DRIVEN BY VISION TO REVOLUTION <span className="text-[#f58d20]">EGG QUALITY IN INDIA</span>
+              DRIVEN BY VISION TO REVOLUTIONIZE <span className="text-[#f58d20]">HEALTH & WELLNESS</span>
             </h3>
 
             <ul className="space-y-4 text-[1.1rem] leading-relaxed text-[#4a5568] font-medium mb-10">
               <li className="flex items-start gap-4 group">
                 <div className="mt-2 min-w-[6px] h-[6px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Our mission is to improve the quality of eggs in India.</span>
+                <span>Our mission is to elevate the standard of healthcare and wellness globally.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-2 min-w-[6px] h-[6px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>We work directly with farmers to maintain strict quality standards.</span>
+                <span>We work with industry experts to maintain strict pharmaceutical quality standards.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-2 min-w-[6px] h-[6px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Our eggs come from healthy hens fed with herbal and nutritious feed.</span>
+                <span>Our products are formulated with premium, scientifically-backed ingredients.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-2 min-w-[6px] h-[6px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>Every egg goes through multiple safety and freshness checks.</span>
+                <span>Every product undergoes rigorous safety, purity, and efficacy checks.</span>
               </li>
               <li className="flex items-start gap-4 group">
                 <div className="mt-2 min-w-[6px] h-[6px] rounded-full bg-[#3d2c23] group-hover:bg-[#f58d20] transition-colors duration-300"></div>
-                <span>We ensure fresh eggs reach your home quickly and safely.</span>
+                <span>We ensure reliable health solutions reach your family safely and efficiently.</span>
               </li>
             </ul>
 
