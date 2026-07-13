@@ -210,7 +210,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
       <div className="absolute top-[20%] -right-[10%] w-[40%] h-[40%] rounded-full bg-blue-400/10 blur-[100px] pointer-events-none -z-10 opacity-60"></div>
       
       <div className="w-full max-w-[1400px] mx-auto px-6 relative z-10">
-        <Link href="/products" className="inline-flex items-center font-bold text-sm text-text-muted hover:text-primary transition-all mb-4 md:mb-6 group hover:-translate-x-1 duration-300">
+        <Link href="/products" className="inline-flex items-center font-bold text-sm text-text-muted hover:text-primary transition-all group hover:-translate-x-1 duration-300">
           <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center mr-2 border border-black/5 group-hover:bg-primary/10 group-hover:border-primary/20 transition-colors">
             <i className="ph-bold ph-arrow-left group-hover:-translate-x-1 transition-transform"></i> 
           </div>
@@ -228,10 +228,6 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
               <h1 className="font-heading text-3xl md:text-5xl font-black mb-4 text-text-dark leading-[1.1] tracking-tight">
                 {product.name}
               </h1>
-              
-              <p className="text-base md:text-lg text-text-muted leading-relaxed font-medium">
-                {product.description}
-              </p>
             </div>
             
             {/* Variations Grid Only */}
@@ -299,6 +295,43 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
                 })}
               </div>
             </div>
+
+            {/* Professional Content After Products */}
+            <div className="w-full max-w-5xl mx-auto mt-20 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-500 fill-mode-both">
+              <div className="bg-surface rounded-[2.5rem] p-8 md:p-14 border border-black/5 shadow-sm relative overflow-hidden">
+                {/* Decorative blobs */}
+                <div className="absolute -top-20 -right-20 w-80 h-80 bg-primary/10 rounded-full blur-[80px] pointer-events-none"></div>
+                <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-blue-400/10 rounded-full blur-[80px] pointer-events-none"></div>
+                
+                <div className="relative z-10 flex flex-col md:flex-row gap-12 items-start">
+                  <div className="w-full md:w-1/2">
+                    <h3 className="font-heading text-3xl md:text-4xl font-bold mb-6 text-text-dark">About This <span className="text-primary">Product</span></h3>
+                    <p className="text-lg md:text-xl text-text-muted leading-relaxed font-medium">
+                      {product.description}
+                    </p>
+                  </div>
+                  
+                  <div className="w-full md:w-1/2">
+                    <h4 className="font-heading text-2xl font-bold mb-6 text-text-dark flex items-center">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
+                        <i className="ph-fill ph-sparkle text-primary text-xl"></i>
+                      </div>
+                      Key Benefits
+                    </h4>
+                    <div className="flex flex-col gap-4">
+                      {product.features.map((feature, idx) => (
+                        <div key={idx} className="flex items-center p-4 rounded-2xl bg-white border border-black/5 shadow-sm hover:shadow-md transition-shadow group">
+                          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 text-primary flex items-center justify-center mr-4 flex-shrink-0 shadow-inner group-hover:scale-110 transition-transform">
+                            <i className="ph-bold ph-check text-lg"></i>
+                          </div>
+                          <span className="font-bold text-text-dark/90 text-lg">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
@@ -308,7 +341,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
               <div className="sticky top-32 rounded-[3rem] bg-white/40 backdrop-blur-2xl border border-white shadow-[0_8px_40px_rgba(0,0,0,0.04)] overflow-hidden group p-2">
                 <div className="absolute inset-0 bg-gradient-to-tr from-gray-50/80 to-primary/5 opacity-50 rounded-[3rem]"></div>
                 
-                <div className="relative bg-white/50 rounded-[2.5rem] h-[500px] lg:h-[650px] w-full flex items-center justify-center p-12 border border-black/[0.02] shadow-inner">
+                <div className="relative bg-white/50 rounded-[2.5rem] h-[400px] lg:h-[500px] w-full flex items-center justify-center p-8 lg:p-12 border border-black/[0.02] shadow-inner">
                   {/* Floating animation for the image */}
                   <div className="relative w-full h-full max-w-lg mx-auto transition-transform duration-700 ease-out group-hover:scale-105 animate-[float_6s_ease-in-out_infinite]">
                     <Image src={product.image} alt={product.name} fill className="object-contain drop-shadow-2xl" priority />
@@ -318,13 +351,13 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
             </div>
             
             {/* Right Column: Product Info */}
-            <div className="lg:col-span-7 xl:col-span-6 flex flex-col justify-center py-6 lg:py-12">
+            <div className="lg:col-span-7 xl:col-span-6 flex flex-col justify-start py-6 lg:py-8">
               <div className="animate-in fade-in slide-in-from-bottom-8 duration-1000">
                 <span className="inline-block px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-xs font-bold uppercase tracking-widest text-primary mb-6 shadow-sm">
                   {product.category}
                 </span>
                 
-                <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-text-dark leading-[1.1] tracking-tight">
+                <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-black mb-4 text-text-dark leading-[1.1] tracking-tight">
                   {product.name.includes("Sky Soft") ? (
                     <>
                       <mark className="bg-yellow-300 text-black px-3 py-1 rounded-md font-black shadow-sm mr-2">Sky Soft</mark>
@@ -335,7 +368,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
                   )}
                 </h1>
                 
-                <p className="text-xl md:text-2xl text-text-muted leading-relaxed mb-10 font-medium">
+                <p className="text-lg text-text-muted leading-relaxed mb-8 font-medium">
                   {product.description}
                 </p>
               </div>
@@ -344,12 +377,6 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
               
               {/* Key Benefits */}
               <div className="mb-14 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150 fill-mode-both">
-                <h3 className="font-heading text-2xl font-bold mb-6 text-text-dark flex items-center">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-3">
-                    <i className="ph-fill ph-sparkle text-primary text-xl"></i>
-                  </div>
-                  Why Choose This
-                </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {product.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center p-5 rounded-2xl bg-white border border-black/5 shadow-[0_4px_16px_rgba(0,0,0,0.02)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 group cursor-default">

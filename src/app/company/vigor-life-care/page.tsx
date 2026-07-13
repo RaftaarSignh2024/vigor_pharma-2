@@ -54,11 +54,20 @@ export default function VigorLifeCareDetails() {
               </div>
               <h3 className="font-heading text-4xl font-bold mb-6">Vigor Life Care LLP</h3>
               <p className="text-text-muted text-lg leading-relaxed mb-6">
-                As the flagship entity of our group, Vigor Life Care LLP is steadfastly committed to redefining modern health and wellness. We seamlessly integrate cutting-edge nutritional science with advanced personal hygiene solutions to empower individuals to live their best lives.
+                As the flagship entity of our group, <span className="text-primary font-semibold bg-primary/10 px-2 py-0.5 rounded">Vigor Life Care LLP</span> is steadfastly committed to redefining modern health and wellness. We seamlessly integrate cutting-edge nutritional science with advanced personal hygiene solutions to empower individuals to live their best lives.
               </p>
-              <p className="text-text-muted text-lg leading-relaxed">
+              <p className="text-text-muted text-lg leading-relaxed mb-6">
                 Our comprehensive portfolio is crafted with an uncompromising focus on quality, purity, and efficacy. From meticulously sourced nutritional staples to state-of-the-art personal care products, every offering is designed to foster a holistic, healthier, and more vibrant lifestyle for communities worldwide.
               </p>
+              <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 mt-6 flex gap-4 items-start">
+                <i className="ph-fill ph-certificate text-3xl text-primary shrink-0 mt-1"></i>
+                <div>
+                  <h4 className="font-heading font-bold text-xl mb-2 text-slate-800">Registered Trademark: Skysoft™</h4>
+                  <p className="text-text-muted">
+                    We proudly hold the trademark for <strong>Skysoft</strong> (Class 5), which represents our dedication to delivering the finest quality personal hygiene solutions and healthcare products.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -74,7 +83,7 @@ export default function VigorLifeCareDetails() {
           <div className="text-center mb-20 animate-in fade-in slide-in-from-bottom-8 duration-1000">
             <h2 className="font-heading text-4xl font-bold mb-4">Our <span className="text-primary">Journey</span></h2>
             <p className="text-lg text-text-muted max-w-2xl mx-auto">
-              Founded in 2024 by visionary leaders Mr. Gajendra Kumar and Mr. Sudheer, Vigor Life Care began with a commitment to revolutionize the pharmaceutical and wellness industry. Explore the milestones that have defined our path to excellence.
+              Founded in 2024 by visionary leader Mr. Gajendra Kumar, Vigor Life Care began with a commitment to revolutionize the pharmaceutical and wellness industry. Explore the milestones that have defined our path to excellence.
             </p>
           </div>
 

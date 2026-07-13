@@ -54,16 +54,19 @@ export default function CFNaturalFarmsDetails() {
               <img src="/banner_cf_farms.png" alt="CF Natural Lay Farms LLP" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
             </div>
             <div className="w-full lg:w-7/12">
-              <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
+              <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-green-600/10 text-green-600 mb-6">
                 <i className="ph-fill ph-plant text-xl"></i>
                 <span className="font-semibold tracking-wide uppercase text-sm">Sustainable Agriculture</span>
               </div>
               <h3 className="font-heading text-4xl font-bold mb-6">CF Natural Lay Farms LLP</h3>
               <p className="text-text-muted text-lg leading-relaxed mb-6">
-                CF Natural Lay Farms LLP is our specialized egg production farm, embodying our profound dedication to sustainable agriculture and the ethical cultivation of high-quality nutritional sources. We employ advanced, eco-conscious farming practices to ensure that our eggs meet the highest standards of safety, freshness, and nutritional value.
+                <span className="text-green-600 font-semibold bg-green-600/10 px-2 py-0.5 rounded">CF Natural Lay Farms LLP</span> stands at the forefront of sustainable agriculture, operating as a specialized facility dedicated to the ethical production of premium-quality eggs. By integrating advanced, eco-conscious farming methodologies, we ensure that our nutritional offerings consistently exceed industry standards for safety, freshness, and overall nutritional value.
               </p>
               <p className="text-text-muted text-lg leading-relaxed mb-6">
-                By prioritizing environmental stewardship and stringent quality controls, we deliver farm-to-table excellence. Our goal is to nurture both the hens and our consumers, providing essential, protein-rich eggs that form the foundation of a genuinely healthy lifestyle.
+                At the heart of our operations lies a deep respect for traditional farming culture. We believe that the best nutritional sources come from processes that honor nature's rhythms. By combining time-tested heritage practices with modern sustainability, we cultivate our eggs with genuine care, patience, and a reverence for the land.
+              </p>
+              <p className="text-text-muted text-lg leading-relaxed mb-6">
+                Driven by a steadfast commitment to environmental stewardship and rigorous quality assurance, we have perfected the farm-to-table continuum. Our core philosophy centers on nurturing both our flocks and our consumers—delivering vital, protein-rich staples that serve as the cornerstone of a vibrant, healthy lifestyle.
               </p>
               <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 mt-6 flex gap-4 items-start">
                 <i className="ph-fill ph-certificate text-3xl text-primary shrink-0 mt-1"></i>
@@ -88,7 +91,7 @@ export default function CFNaturalFarmsDetails() {
         <div className="w-full max-w-[1000px] mx-auto px-6 relative z-10">
           <div className="text-center mb-20 animate-in fade-in slide-in-from-bottom-8 duration-1000">
             <h2 className="font-heading text-4xl font-bold mb-4">Our <span className="text-primary">Journey</span></h2>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto">From our inception to our current farming presence, explore the milestones that built our legacy.</p>
+            <p className="text-lg text-text-muted max-w-2xl mx-auto">Explore the key milestones that have defined our commitment to sustainable agriculture.</p>
           </div>
 
           <div className="relative">

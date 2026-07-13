@@ -73,9 +73,9 @@ export default function About() {
                   <i className="ph-fill ph-heartbeat"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-2">Vigor Life Care LLP</h3>
-                <div className="mb-4 text-sm font-bold tracking-wider uppercase text-primary">Founders: Mr. Gajendra Kumar & Mr. Sudheer</div>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
-                  Vigor Life Care LLP is steadfastly committed to redefining modern health and wellness, seamlessly integrating cutting-edge nutritional science with advanced personal hygiene solutions.
+                  As a pioneering force in the wellness industry, <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">Vigor Life Care LLP</span> is dedicated to elevating everyday health standards. We seamlessly bridge the gap between cutting-edge nutritional science and premium personal hygiene solutions to enrich and empower lives.
                 </p>
                 <Link href="/company/vigor-life-care" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
                   View More
@@ -93,9 +93,9 @@ export default function About() {
                   <i className="ph-fill ph-storefront"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-2">GS Enterprises</h3>
-                <div className="mb-4 text-sm font-bold tracking-wider uppercase text-primary">Founder: Mr. Gajendra Kumar</div>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
-                  GS Enterprises is our dedicated pharmaceutical consulting firm, providing expert guidance, regulatory insights, and strategic solutions for the dynamic healthcare and pharma sectors.
+                  Operating at the forefront of the healthcare sector, <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">GS Enterprises</span> serves as a premier pharmaceutical consulting firm. We provide strategic regulatory insights and expert guidance to help organizations navigate the complexities of dynamic medical markets.
                 </p>
                 <Link href="/company/gs-enterprises" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
                   View More
@@ -113,9 +113,9 @@ export default function About() {
                   <i className="ph-fill ph-plant"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-2">CF Natural Lay Farms LLP</h3>
-                <div className="mb-4 text-sm font-bold tracking-wider uppercase text-primary">Founders: Mr. Gajendra Kumar & Mr. Nitin Iyer</div>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
-                  CF Natural Lay Farms LLP is our dedicated egg production farm, embodying our profound commitment to sustainable agriculture and the ethical, eco-conscious cultivation of premium-quality eggs.
+                  Driven by a deep respect for heritage practices, <span className="text-green-600 font-bold bg-green-600/10 px-2 py-0.5 rounded">CF Natural Lay Farms LLP</span> represents our unwavering commitment to sustainable agriculture. We focus on the ethical, eco-conscious cultivation of premium-quality eggs that nourish our communities.
                 </p>
                 <Link href="/company/cf-natural-farms" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
                   View More

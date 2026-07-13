@@ -13,22 +13,56 @@ export default function Home() {
       <HeroSlider />
 
       {/* Trademark Section */}
-      <section className="bg-primary/5 py-16 border-b border-primary/10 animate-in fade-in duration-1000">
-        <div className="w-full max-w-[1280px] mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-10">
-          <div className="w-full md:w-1/3 flex justify-center">
-            <div className="bg-white p-3 rounded-2xl shadow-xl rotate-[-2deg] hover:rotate-0 transition-all duration-500 hover:scale-105">
-              <img src="/trademark.jpg" alt="Eggy Nutritior Trademark Registration" className="w-full h-auto rounded-xl border border-gray-100 object-cover" />
-            </div>
+      <section className="bg-primary/5 py-20 border-b border-primary/10 animate-in fade-in duration-1000">
+        <div className="w-full max-w-[1280px] mx-auto px-6">
+          <div className="text-center mb-14">
+            <h2 className="font-heading text-4xl font-bold mb-4">Our Registered <span className="text-primary">Trademarks</span></h2>
+            <p className="text-lg text-text-muted max-w-2xl mx-auto">We are the proud official owners of multiple registered trademarks, ensuring premium quality across all our brands.</p>
           </div>
-          <div className="w-full md:w-1/2 text-center md:text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary mb-4">
-              <i className="ph-fill ph-certificate text-lg"></i>
-              <span className="font-semibold text-sm uppercase tracking-wider">Registered Trademark</span>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            {/* Eggy Nutritior */}
+            <div className="flex flex-col sm:flex-row items-center gap-8 bg-white p-6 md:p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-black/5 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-all hover:-translate-y-1 duration-300">
+              <div className="w-full sm:w-2/5 flex justify-center flex-shrink-0">
+                <div className="bg-white p-2 rounded-2xl shadow-lg rotate-[-2deg] hover:rotate-0 transition-all duration-500 hover:scale-105">
+                  <img src="/trademark.jpg" alt="Eggy Nutritior Trademark Registration" className="w-full h-auto rounded-xl border border-gray-100 object-cover" />
+                </div>
+              </div>
+              <div className="w-full sm:w-3/5 text-center sm:text-left">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary mb-4">
+                  <i className="ph-fill ph-certificate text-base"></i>
+                  <span className="font-bold text-xs uppercase tracking-wider">Class 29</span>
+                </div>
+                <h3 className="font-heading text-2xl md:text-3xl font-bold mb-3 text-text-dark">Eggy Nutritior™</h3>
+                <p className="text-base text-slate-600 leading-relaxed font-medium">
+                  Officially registered trademark representing our unwavering commitment to providing premium quality eggs and nutritional products with uncompromising standards.
+                </p>
+              </div>
             </div>
-            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">Official Owners of Eggy Nutritior™</h2>
-            <p className="text-lg text-slate-700 leading-relaxed">
-              We are the proud owners of the officially registered trademark for <strong className="text-primary font-bold">Eggy Nutritior™</strong> (Class 29). This certification reflects our unwavering commitment to providing premium quality eggs, poultry, and nutritional products with uncompromising standards.
-            </p>
+
+            {/* Sky Soft */}
+            <div className="flex flex-col sm:flex-row items-center gap-8 bg-white p-6 md:p-8 rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.03)] border border-black/5 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] transition-all hover:-translate-y-1 duration-300">
+              <div className="w-full sm:w-2/5 flex justify-center flex-shrink-0">
+                <div className="bg-white p-2 rounded-2xl shadow-lg rotate-[2deg] hover:rotate-0 transition-all duration-500 hover:scale-105">
+                  <div className="w-full aspect-[3/4] bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl border border-yellow-200/50 flex flex-col items-center justify-center p-4">
+                    <i className="ph-fill ph-certificate text-yellow-500 text-5xl mb-2 opacity-80"></i>
+                    <span className="font-heading font-black text-center text-xl text-yellow-600 opacity-90 leading-tight tracking-tighter uppercase">Trademark<br/>Class 5</span>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full sm:w-3/5 text-center sm:text-left">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-yellow-400/20 text-yellow-700 mb-4">
+                  <i className="ph-fill ph-certificate text-base"></i>
+                  <span className="font-bold text-xs uppercase tracking-wider">Class 5</span>
+                </div>
+                <h3 className="font-heading text-2xl md:text-3xl font-bold mb-3 text-text-dark">
+                  <mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-md shadow-sm mr-1">Sky Soft</mark>™
+                </h3>
+                <p className="text-base text-slate-600 leading-relaxed font-medium">
+                  Officially registered trademark for our premium personal hygiene division, guaranteeing safe, high-quality sanitary pads and baby diapers.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -116,13 +150,43 @@ export default function Home() {
             {/* Product 3 */}
             <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
               <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
-                <img src="/liquid_egg_white.png" alt="Liquid Egg White" className="w-full h-full object-cover" />
+                <img src="/slider_egg_combined_new.png" alt="Whole Egg Powder" className="w-full h-full object-cover" />
+              </div>
+              <div className="p-6 flex flex-col flex-grow">
+                <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Nutrition & Baking</span>
+                <h3 className="font-heading text-xl font-bold mb-3">Premium Whole Egg Powder</h3>
+                <p className="text-text-muted text-sm mb-6 flex-grow">A perfect blend of egg whites and yolks in a convenient, long-lasting powder.</p>
+                <Link href="/products/whole-egg-powder" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
+                  Learn More <i className="ph-bold ph-arrow-right"></i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Product 4 */}
+            <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
+              <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
+                <img src="/liquid_egg_whites_bottle.png" alt="Liquid Egg Whites" className="w-full h-full object-cover" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Fitness</span>
-                <h3 className="font-heading text-xl font-bold mb-3">Eggy Nutritior Liquid Eggs</h3>
-                <p className="text-text-muted text-sm mb-6 flex-grow">100% pure protein powerhouse. Choose from whites, yolks, or combo.</p>
-                <Link href="/products/eggy-nutritior" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
+                <h3 className="font-heading text-xl font-bold mb-3">Eggy Nutritior Liquid Egg Whites</h3>
+                <p className="text-text-muted text-sm mb-6 flex-grow">100% pure protein powerhouse. The perfect natural supplement for your fitness goals.</p>
+                <Link href="/products/liquid-egg-whites" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
+                  Learn More <i className="ph-bold ph-arrow-right"></i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Product 5 */}
+            <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
+              <div className="w-full h-60 relative bg-gray-100 border-b border-black/5">
+                <img src="/liquid_egg_yolks_bottle.png" alt="Liquid Egg Yolks" className="w-full h-full object-cover" />
+              </div>
+              <div className="p-6 flex flex-col flex-grow">
+                <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Culinary</span>
+                <h3 className="font-heading text-xl font-bold mb-3">Premium Liquid Egg Yolks</h3>
+                <p className="text-text-muted text-sm mb-6 flex-grow">Rich, golden yolks ready for your baking and culinary masterpieces.</p>
+                <Link href="/products/liquid-egg-yolks" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
                   Learn More <i className="ph-bold ph-arrow-right"></i>
                 </Link>
               </div>
