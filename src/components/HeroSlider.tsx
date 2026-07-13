@@ -14,28 +14,56 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    imageUrl: "/slider_egg_white.png",
-    alt: "Premium Egg White Powder",
-    title: "Pure Egg White Powder",
+    imageUrl: "/slider_egg_white_new.png",
+    alt: "Egg Nutritior Egg White Powder",
+    title: "Egg Nutritior Egg White Powder",
     subtitle: "100% pure protein powerhouse for athletes and fitness enthusiasts."
   },
   {
     id: 2,
-    imageUrl: "/slider_egg_yolk.png",
-    alt: "Premium Egg Yolk Powder",
-    title: "Rich Egg Yolk Powder",
+    imageUrl: "/slider_egg_yolk_new.png",
+    alt: "Egg Nutritior Egg Yellow Powder",
+    title: "Egg Nutritior Egg Yellow Powder",
     subtitle: "Nutrient-dense and vibrant, perfect for holistic health and nutrition."
   },
   {
     id: 3,
-    imageUrl: "/slider_sanitary_pads.png",
+    imageUrl: "/slider_egg_combined_new.png",
+    alt: "Egg Nutritior Egg Combined Powder",
+    title: "Egg Nutritior Egg Combined Powder",
+    subtitle: "The perfect balance of egg whites and yolks in a convenient powder."
+  },
+  {
+    id: 4,
+    imageUrl: "/slider_liquid_white_v3.png",
+    alt: "Egg Nutritior Egg White Liquid",
+    title: "Egg Nutritior Egg White Liquid",
+    subtitle: "Premium pasteurized liquid egg whites, ready to use for cooking or baking."
+  },
+  {
+    id: 5,
+    imageUrl: "/slider_liquid_yellow_v3.png",
+    alt: "Egg Nutritior Egg Yellow Liquid",
+    title: "Egg Nutritior Egg Yellow Liquid",
+    subtitle: "Rich, golden liquid egg yolks for all your culinary needs."
+  },
+  {
+    id: 6,
+    imageUrl: "/slider_liquid_combined_v2.png",
+    alt: "Egg Nutritior Egg Combined Liquid",
+    title: "Egg Nutritior Egg Combined Liquid",
+    subtitle: "Convenient whole liquid eggs, perfect for scrambling or baking."
+  },
+  {
+    id: 7,
+    imageUrl: "/slider_sanitary_pads_new.png",
     alt: "Sky Soft Sanitary Pads",
     title: "Sky Soft Sanitary Pads",
     subtitle: "Advanced absorption with a breathable, skin-friendly layer for ultimate comfort."
   },
   {
-    id: 4,
-    imageUrl: "/slider_baby_diapers.png",
+    id: 8,
+    imageUrl: "/slider_baby_diapers_new.png",
     alt: "Sky Soft Baby Diapers",
     title: "Sky Soft Baby Diapers",
     subtitle: "Gentle on skin, offering maximum protection and coziness for your little ones."

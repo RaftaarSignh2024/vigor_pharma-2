@@ -10,7 +10,7 @@ const products = {
     description: "100% pure protein powerhouse in a convenient powder form. Zero fat and zero cholesterol. Perfect for athletes, smoothies, and fitness enthusiasts. Our premium egg whites powder is carefully processed to retain maximum nutritional value while offering superior mixability and a neutral taste.",
     price: "$14.99",
     unit: "500g",
-    image: "/egg_whites_powder.png",
+    image: "/egg_whites_powder_new.png",
     features: [
       "100% Pure Protein",
       "Zero Fat & Cholesterol",
@@ -18,8 +18,8 @@ const products = {
       "Neutral Taste Profile"
     ],
     variations: [
-      { name: "200gm Pouch", image: "/egg_whites_pouch.png" },
-      { name: "500gm Pouch", image: "/egg_whites_pouch.png" }
+      { name: "200gm Pouch", image: "/egg_whites_pouch_new.png" },
+      { name: "500gm Pouch", image: "/egg_whites_pouch_new.png" }
     ],
     sizes: ["200gm", "500gm"]
   },
@@ -30,7 +30,7 @@ const products = {
     description: "Dense in essential nutrients like Vitamin D and Choline. Ideal for premium baking, sauces, culinary arts, and long-term shelf stability. Our rich egg yolks powder is carefully dried to preserve its natural golden color, rich flavor, and emulsifying properties.",
     price: "$16.50",
     unit: "500g",
-    image: "/egg_yolks_powder.png",
+    image: "/egg_yolks_powder_new.png",
     features: [
       "Rich in Vitamin D & Choline",
       "Excellent Emulsifier",
@@ -38,8 +38,8 @@ const products = {
       "Perfect for Baking & Sauces"
     ],
     variations: [
-      { name: "200gm Pouch", image: "/egg_yolks_pouch.png" },
-      { name: "500gm Pouch", image: "/egg_yolks_pouch.png" }
+      { name: "200gm Pouch", image: "/egg_yolks_pouch_new.png" },
+      { name: "500gm Pouch", image: "/egg_yolks_pouch_new.png" }
     ],
     sizes: ["200gm", "500gm"]
   },
@@ -107,6 +107,74 @@ const products = {
       { name: "Liquid Whole Eggs", image: "/liquid_whole_eggs_bottle.png" }
     ],
     sizes: ["200ml", "500ml"]
+  },
+  "egg-combined-powder": {
+    id: "egg-combined-powder",
+    name: "Egg Combined Powder",
+    category: "Balanced Nutrition",
+    description: "The perfect balance of egg whites and yolks in a convenient powder. Ideal for a full amino acid profile, baking, and everyday nutrition. It retains the natural flavor and nutritional benefits of whole eggs.",
+    price: "$15.50",
+    unit: "500g",
+    image: "/slider_egg_combined_new.png",
+    features: [
+      "Full Amino Acid Profile",
+      "Perfect White/Yolk Ratio",
+      "Long Shelf Life",
+      "Great for Baking & Smoothies"
+    ],
+    variations: [
+      { name: "200gm Pouch", image: "/slider_egg_combined_new.png" },
+      { name: "500gm Pouch", image: "/slider_egg_combined_new.png" }
+    ],
+    sizes: ["200gm", "500gm"]
+  },
+  "liquid-egg-whites": {
+    id: "liquid-egg-whites",
+    name: "Liquid Egg Whites",
+    category: "Fitness",
+    description: "Premium pasteurized liquid egg whites. Ready to use straight from the bottle for cooking, baking, or blending into smoothies. 100% pure protein with zero fat or cholesterol.",
+    price: "$8.99",
+    unit: "500ml",
+    image: "/slider_liquid_white_v3.png",
+    features: [
+      "100% Pure Protein",
+      "Zero Fat & Cholesterol",
+      "Ready to Use",
+      "Pasteurized for Safety"
+    ],
+    sizes: ["200ml", "500ml", "1 Liter"]
+  },
+  "liquid-egg-yolks": {
+    id: "liquid-egg-yolks",
+    name: "Liquid Egg Yolks",
+    category: "Culinary Excellence",
+    description: "Rich, golden pasteurized liquid egg yolks for all your culinary needs. Perfect for hollandaise, custards, ice cream, and premium baking. Conveniently packaged for easy measuring.",
+    price: "$10.99",
+    unit: "500ml",
+    image: "/slider_liquid_yellow_v3.png",
+    features: [
+      "Rich Golden Yolks",
+      "Perfect for Custards & Baking",
+      "Convenient & Ready to Pour",
+      "Pasteurized for Safety"
+    ],
+    sizes: ["200ml", "500ml"]
+  },
+  "liquid-combined-eggs": {
+    id: "liquid-combined-eggs",
+    name: "Liquid Whole Eggs",
+    category: "Daily Nutrition",
+    description: "Convenient pasteurized whole liquid eggs. The perfect mix of whites and yolks, ready to scramble, bake, or cook with. Experience farm-fresh taste without the hassle of cracking shells.",
+    price: "$9.50",
+    unit: "500ml",
+    image: "/slider_liquid_combined_v2.png",
+    features: [
+      "Perfect White/Yolk Blend",
+      "No Shell Cracking Required",
+      "Great for Scrambling",
+      "Pasteurized for Safety"
+    ],
+    sizes: ["200ml", "500ml", "1 Liter"]
   },
   "premium-farm-eggs": {
     id: "premium-farm-eggs",

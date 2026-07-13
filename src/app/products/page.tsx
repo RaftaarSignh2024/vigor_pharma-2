@@ -17,16 +17,16 @@ export default function Products() {
               <p className="text-lg text-text-muted max-w-2xl mx-auto">Fuel your body with the highest quality protein sources.</p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-              {/* Product 1 */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto">
+              {/* Product 1: Egg Whites Powder */}
               <Link href="/products/egg-whites-powder" id="egg-whites-powder" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
-                  <img src="/egg_whites_powder.png" alt="Premium Egg Whites Powder" className="w-full h-full object-cover" />
+                  <img src="/egg_whites_powder_new.png" alt="Premium Egg Whites Powder" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Fitness & Recovery</span>
-                  <h3 className="font-heading text-2xl font-bold mb-3">Premium Egg Whites Powder</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">100% pure protein powerhouse in a convenient powder form. Zero fat and zero cholesterol. Perfect for athletes, smoothies, and fitness enthusiasts.</p>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Egg Whites Powder</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">100% pure protein powerhouse in a convenient powder form. Zero fat and zero cholesterol.</p>
                   <div className="mt-auto pt-2">
                     <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
                       View Details
@@ -35,15 +35,15 @@ export default function Products() {
                 </div>
               </Link>
               
-              {/* Product 2 */}
+              {/* Product 2: Egg Yolks Powder */}
               <Link href="/products/egg-yolks-powder" id="egg-yolks-powder" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
-                  <img src="/egg_yolks_powder.png" alt="Rich Egg Yolks Powder" className="w-full h-full object-cover" />
+                  <img src="/egg_yolks_powder_new.png" alt="Rich Egg Yolks Powder" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Culinary & Baking</span>
-                  <h3 className="font-heading text-2xl font-bold mb-3">Rich Egg Yolks Powder</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">Dense in essential nutrients like Vitamin D and Choline. Ideal for premium baking, sauces, culinary arts, and long-term shelf stability.</p>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Egg Yolks Powder</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">Dense in essential nutrients like Vitamin D and Choline. Ideal for premium baking and sauces.</p>
                   <div className="mt-auto pt-2">
                     <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
                       View Details
@@ -52,15 +52,15 @@ export default function Products() {
                 </div>
               </Link>
 
-              {/* Product 3 */}
-              <Link href="/products/eggy-nutritior" id="eggy-nutritior" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+              {/* Product 3: Egg Combined Powder (NEW) */}
+              <Link href="/products/egg-combined-powder" id="egg-combined-powder" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
-                  <img src="/liquid_egg_white.png" alt="Eggy Nutritior" className="w-full h-full object-cover" />
+                  <img src="/slider_egg_combined_new.png" alt="Egg Combined Powder" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
-                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Nutrition & Wellness</span>
-                  <h3 className="font-heading text-2xl font-bold mb-3">Eggy Nutritior</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">Premium liquid egg products in convenient bottle packaging. Choose from our range of variations to suit your dietary and culinary needs.</p>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Balanced Nutrition</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Egg Combined Powder</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">The perfect balance of egg whites and yolks in a convenient powder. Ideal for a full amino acid profile.</p>
                   <div className="mt-auto pt-2">
                     <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
                       View Details
@@ -69,15 +69,66 @@ export default function Products() {
                 </div>
               </Link>
 
-              {/* Product 4 */}
-              <Link href="/products/premium-farm-eggs" id="premium-farm-eggs" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-400 fill-mode-both">
+              {/* Product 4: Liquid Egg Whites */}
+              <Link href="/products/liquid-egg-whites" id="liquid-egg-whites" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
+                <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
+                  <img src="/slider_liquid_white_v3.png" alt="Liquid Egg Whites" className="w-full h-full object-cover" />
+                </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Fitness</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Liquid Egg Whites</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">Premium pasteurized liquid egg whites. Ready to use straight from the bottle for cooking or smoothies.</p>
+                  <div className="mt-auto pt-2">
+                    <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
+                      View Details
+                    </span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Product 5: Liquid Egg Yolks (NEW) */}
+              <Link href="/products/liquid-egg-yolks" id="liquid-egg-yolks" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
+                <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
+                  <img src="/slider_liquid_yellow_v3.png" alt="Liquid Egg Yolks" className="w-full h-full object-cover" />
+                </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Culinary Excellence</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Liquid Egg Yolks</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">Rich, golden pasteurized liquid egg yolks for all your culinary needs. Perfect for hollandaise, custards, and baking.</p>
+                  <div className="mt-auto pt-2">
+                    <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
+                      View Details
+                    </span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Product 6: Liquid Combined Eggs (NEW) */}
+              <Link href="/products/liquid-combined-eggs" id="liquid-combined-eggs" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
+                <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
+                  <img src="/slider_liquid_combined_v2.png" alt="Liquid Combined Eggs" className="w-full h-full object-cover" />
+                </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Daily Nutrition</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Liquid Whole Eggs</h3>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">Convenient pasteurized whole liquid eggs. The perfect mix of whites and yolks, ready to scramble or bake.</p>
+                  <div className="mt-auto pt-2">
+                    <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
+                      View Details
+                    </span>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Product 7: Premium Farm Eggs */}
+              <Link href="/products/premium-farm-eggs" id="premium-farm-eggs" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both md:col-span-2 lg:col-span-3 lg:w-1/3 lg:mx-auto">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
                   <img src="/premium_egg_carton.png" alt="Premium Farm Eggs" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
                   <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Nutrition & Wellness</span>
                   <h3 className="font-heading text-2xl font-bold mb-3">Premium Farm Eggs</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">High-quality, farm-fresh eggs in premium protective packaging. Rich in protein, Omega-3, and essential vitamins for your daily nutritional needs.</p>
+                  <p className="text-text-muted text-sm mb-6 flex-grow">High-quality, farm-fresh eggs in premium protective packaging. Rich in protein, Omega-3, and essential vitamins.</p>
                   <div className="mt-auto pt-2">
                     <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
                       View Details
