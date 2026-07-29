@@ -15,43 +15,43 @@ const slides: Slide[] = [
   {
     id: 1,
     imageUrl: "/slider_egg_white_new.png",
-    alt: "Egg Nutritior Egg White Powder",
-    title: "Egg Nutritior Egg White Powder",
+    alt: "Eggy Nutritior Egg White Powder",
+    title: "Eggy Nutritior Egg White Powder",
     subtitle: "100% pure protein powerhouse for athletes and fitness enthusiasts."
   },
   {
     id: 2,
     imageUrl: "/slider_egg_yolk_new.png",
-    alt: "Egg Nutritior Egg Yellow Powder",
-    title: "Egg Nutritior Egg Yellow Powder",
+    alt: "Eggy Nutritior Egg Yellow Powder",
+    title: "Eggy Nutritior Egg Yellow Powder",
     subtitle: "Nutrient-dense and vibrant, perfect for holistic health and nutrition."
   },
   {
     id: 3,
     imageUrl: "/slider_egg_combined_new.png",
-    alt: "Egg Nutritior Egg Combined Powder",
-    title: "Egg Nutritior Egg Combined Powder",
+    alt: "Eggy Nutritior Egg Combined Powder",
+    title: "Eggy Nutritior Egg Combined Powder",
     subtitle: "The perfect balance of egg whites and yolks in a convenient powder."
   },
   {
     id: 4,
-    imageUrl: "/slider_liquid_white_v3.png",
-    alt: "Egg Nutritior Egg White Liquid",
-    title: "Egg Nutritior Egg White Liquid",
+    imageUrl: "/slider_liquid_white_v4.png",
+    alt: "Eggy Nutritior Egg White Liquid",
+    title: "Eggy Nutritior Egg White Liquid",
     subtitle: "Premium pasteurized liquid egg whites, ready to use for cooking or baking."
   },
   {
     id: 5,
-    imageUrl: "/slider_liquid_yellow_v3.png",
-    alt: "Egg Nutritior Egg Yellow Liquid",
-    title: "Egg Nutritior Egg Yellow Liquid",
+    imageUrl: "/slider_liquid_yellow_v5.png",
+    alt: "Eggy Nutritior Egg Yellow Liquid",
+    title: "Eggy Nutritior Egg Yellow Liquid",
     subtitle: "Rich, golden liquid egg yolks for all your culinary needs."
   },
   {
     id: 6,
-    imageUrl: "/slider_liquid_combined_v2.png",
-    alt: "Egg Nutritior Egg Combined Liquid",
-    title: "Egg Nutritior Egg Combined Liquid",
+    imageUrl: "/slider_liquid_combined_v4.png",
+    alt: "Eggy Nutritior Egg Combined Liquid",
+    title: "Eggy Nutritior Egg Combined Liquid",
     subtitle: "Convenient whole liquid eggs, perfect for scrambling or baking."
   },
   {
@@ -59,14 +59,14 @@ const slides: Slide[] = [
     imageUrl: "/slider_sanitary_pads_new.png",
     alt: "Sky Soft Sanitary Pads",
     title: "Sky Soft Sanitary Pads",
-    subtitle: "Advanced absorption with a breathable, skin-friendly layer for ultimate comfort."
+    subtitle: "Advanced organic cotton protection brought to you by Vigor Life Care LLP for ultimate comfort."
   },
   {
     id: 8,
     imageUrl: "/slider_baby_diapers_new.png",
     alt: "Sky Soft Baby Diapers",
     title: "Sky Soft Baby Diapers",
-    subtitle: "Gentle on skin, offering maximum protection and coziness for your little ones."
+    subtitle: "Gentle on delicate skin by Vigor Life Care LLP, offering maximum absorbency and coziness."
   }
 ];
 
@@ -116,7 +116,13 @@ export default function HeroSlider() {
                       {slide.title.includes("Sky Soft") ? (
                         <>
                           <mark className="bg-yellow-400 text-black px-3 py-1 rounded-sm font-bold shadow-md">Sky Soft</mark>
+                          <sup className="text-2xl md:text-3xl font-bold ml-1">TM</sup>
                           {slide.title.split("Sky Soft")[1]}
+                        </>
+                      ) : slide.title.includes("Eggy Nutritior") ? (
+                        <>
+                          Eggy Nutritior<sup className="text-2xl md:text-3xl font-bold ml-0.5">TM</sup>
+                          {slide.title.split("Eggy Nutritior")[1]}
                         </>
                       ) : (
                         slide.title

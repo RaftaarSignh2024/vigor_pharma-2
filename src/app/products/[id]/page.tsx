@@ -5,12 +5,12 @@ import { notFound } from "next/navigation";
 const products = {
   "egg-whites-powder": {
     id: "egg-whites-powder",
-    name: "Premium Egg Whites Powder",
+    name: "Eggy Nutritior™ Egg Whites Powder",
     category: "Fitness & Recovery",
     description: "100% pure protein powerhouse in a convenient powder form. Zero fat and zero cholesterol. Perfect for athletes, smoothies, and fitness enthusiasts. Our premium egg whites powder is carefully processed to retain maximum nutritional value while offering superior mixability and a neutral taste.",
     price: "$14.99",
     unit: "500g",
-    image: "/egg_whites_powder_new.png",
+    image: "/slider_egg_white_new.png",
     features: [
       "100% Pure Protein",
       "Zero Fat & Cholesterol",
@@ -18,19 +18,19 @@ const products = {
       "Neutral Taste Profile"
     ],
     variations: [
-      { name: "200gm Pouch", image: "/egg_whites_pouch_new.png" },
-      { name: "500gm Pouch", image: "/egg_whites_pouch_new.png" }
+      { name: "200gm Pouch", image: "/slider_egg_white_new.png" },
+      { name: "500gm Pouch", image: "/slider_egg_white_new.png" }
     ],
     sizes: ["200gm", "500gm"]
   },
   "egg-yolks-powder": {
     id: "egg-yolks-powder",
-    name: "Rich Egg Yolks Powder",
+    name: "Eggy Nutritior™ Egg Yolks Powder",
     category: "Culinary & Baking",
     description: "Dense in essential nutrients like Vitamin D and Choline. Ideal for premium baking, sauces, culinary arts, and long-term shelf stability. Our rich egg yolks powder is carefully dried to preserve its natural golden color, rich flavor, and emulsifying properties.",
     price: "$16.50",
     unit: "500g",
-    image: "/egg_yolks_powder_new.png",
+    image: "/slider_egg_yolk_new.png",
     features: [
       "Rich in Vitamin D & Choline",
       "Excellent Emulsifier",
@@ -38,19 +38,19 @@ const products = {
       "Perfect for Baking & Sauces"
     ],
     variations: [
-      { name: "200gm Pouch", image: "/egg_yolks_pouch_new.png" },
-      { name: "500gm Pouch", image: "/egg_yolks_pouch_new.png" }
+      { name: "200gm Pouch", image: "/slider_egg_yolk_new.png" },
+      { name: "500gm Pouch", image: "/slider_egg_yolk_new.png" }
     ],
     sizes: ["200gm", "500gm"]
   },
   "sanitary-pads": {
     id: "sanitary-pads",
-    name: "Sky Soft Sanitary Pads (Day/Night Pack)",
+    name: "Sky Soft™ Sanitary Pads (Day/Night Pack)",
     category: "Hygiene",
-    description: "Advanced absorption technology with a breathable, 100% organic cotton top layer. Designed to prevent irritation while offering maximum leak-proof protection for up to 12 hours. Dermatologically tested and safe for sensitive skin. Experience uncompromising comfort during your cycle.",
+    description: "Advanced absorption technology with a breathable, 100% organic cotton top layer by Vigor Life Care LLP. Designed to prevent irritation while offering maximum leak-proof protection for up to 12 hours. Dermatologically tested and safe for sensitive skin. Experience uncompromising comfort during your cycle.",
     price: "$8.99",
     unit: "pack of 20",
-    image: "/sanitary_pads_s.jpg",
+    image: "/slider_sanitary_pads_new.png",
     features: [
       "100% Organic Cotton Top",
       "Up to 12 Hours Protection",
@@ -58,20 +58,20 @@ const products = {
       "Ultra-Thin & Breathable"
     ],
     variations: [
-      { name: "Size S", image: "/sanitary_pads_s.jpg" },
-      { name: "Size M", image: "/sanitary_pads_m.jpg" },
-      { name: "Size L", image: "/sanitary_pads_l.jpg" }
+      { name: "Size S", image: "/slider_sanitary_pads_new.png" },
+      { name: "Size M", image: "/slider_sanitary_pads_new.png" },
+      { name: "Size L", image: "/slider_sanitary_pads_new.png" }
     ],
     sizes: ["Pack of 9", "Pack of 18", "Pack of 36"]
   },
   "baby-diapers": {
     id: "baby-diapers",
-    name: "Sky Soft Baby Diapers (Ultra Soft)",
+    name: "Sky Soft™ Baby Diapers (Ultra Soft)",
     category: "Baby Care",
-    description: "Provide unparalleled comfort for your little one. Features a super-absorbent core, wetness indicator, and hypoallergenic materials free from harsh chemicals. Guaranteed to keep delicate skin dry and rash-free all night long.",
+    description: "Provide unparalleled comfort for your little one by Vigor Life Care LLP. Features a super-absorbent core, wetness indicator, and hypoallergenic materials free from harsh chemicals. Guaranteed to keep delicate skin dry and rash-free all night long.",
     price: "$12.50",
     unit: "pack of 30",
-    image: "/diaper_m.jpg",
+    image: "/slider_baby_diapers_new.png",
     features: [
       "Super-Absorbent Core",
       "Wetness Indicator",
@@ -88,12 +88,12 @@ const products = {
   },
   "eggy-nutritior": {
     id: "eggy-nutritior",
-    name: "Eggy Nutritior",
+    name: "Eggy Nutritior™",
     category: "Nutrition & Wellness",
     description: "Premium liquid egg products in convenient bottle packaging. Choose from our range of variations to suit your dietary and culinary needs.",
     price: "Varies by size",
     unit: "200ml / 500ml",
-    image: "/liquid_egg_white.png",
+    image: "/slider_liquid_white_v4.png",
     features: [
       "100% Pure Liquid Eggs",
       "Pasteurized for Safety",
@@ -101,16 +101,16 @@ const products = {
       "High Quality Protein Source"
     ],
     variations: [
-      { name: "Liquid Egg Whites", image: "/liquid_egg_whites_bottle.png" },
-      { name: "Liquid Egg Whites + Whole Eggs Combo", image: "/egg_combo_bottle.png" },
-      { name: "Liquid Egg Yolks", image: "/liquid_egg_yolks_bottle.png" },
-      { name: "Liquid Whole Eggs", image: "/liquid_whole_eggs_bottle.png" }
+      { name: "Liquid Egg Whites", image: "/slider_liquid_white_v4.png" },
+      { name: "Liquid Egg Whites + Whole Eggs Combo", image: "/slider_liquid_combined_v4.png" },
+      { name: "Liquid Egg Yolks", image: "/slider_liquid_yellow_v5.png" },
+      { name: "Liquid Whole Eggs", image: "/slider_liquid_combined_v4.png" }
     ],
     sizes: ["200ml", "500ml"]
   },
   "egg-combined-powder": {
     id: "egg-combined-powder",
-    name: "Egg Combined Powder",
+    name: "Eggy Nutritior™ Egg Combined Powder",
     category: "Balanced Nutrition",
     description: "The perfect balance of egg whites and yolks in a convenient powder. Ideal for a full amino acid profile, baking, and everyday nutrition. It retains the natural flavor and nutritional benefits of whole eggs.",
     price: "$15.50",
@@ -130,12 +130,12 @@ const products = {
   },
   "liquid-egg-whites": {
     id: "liquid-egg-whites",
-    name: "Liquid Egg Whites",
+    name: "Eggy Nutritior™ Liquid Egg Whites",
     category: "Fitness",
     description: "Premium pasteurized liquid egg whites. Ready to use straight from the bottle for cooking, baking, or blending into smoothies. 100% pure protein with zero fat or cholesterol.",
     price: "$8.99",
     unit: "500ml",
-    image: "/slider_liquid_white_v3.png",
+    image: "/slider_liquid_white_v4.png",
     features: [
       "100% Pure Protein",
       "Zero Fat & Cholesterol",
@@ -146,12 +146,12 @@ const products = {
   },
   "liquid-egg-yolks": {
     id: "liquid-egg-yolks",
-    name: "Liquid Egg Yolks",
+    name: "Eggy Nutritior™ Liquid Egg Yolks",
     category: "Culinary Excellence",
     description: "Rich, golden pasteurized liquid egg yolks for all your culinary needs. Perfect for hollandaise, custards, ice cream, and premium baking. Conveniently packaged for easy measuring.",
     price: "$10.99",
     unit: "500ml",
-    image: "/slider_liquid_yellow_v3.png",
+    image: "/slider_liquid_yellow_v5.png",
     features: [
       "Rich Golden Yolks",
       "Perfect for Custards & Baking",
@@ -162,12 +162,12 @@ const products = {
   },
   "liquid-combined-eggs": {
     id: "liquid-combined-eggs",
-    name: "Liquid Whole Eggs",
+    name: "Eggy Nutritior™ Liquid Whole Eggs",
     category: "Daily Nutrition",
     description: "Convenient pasteurized whole liquid eggs. The perfect mix of whites and yolks, ready to scramble, bake, or cook with. Experience farm-fresh taste without the hassle of cracking shells.",
     price: "$9.50",
     unit: "500ml",
-    image: "/slider_liquid_combined_v2.png",
+    image: "/slider_liquid_combined_v4.png",
     features: [
       "Perfect White/Yolk Blend",
       "No Shell Cracking Required",
@@ -178,7 +178,7 @@ const products = {
   },
   "premium-farm-eggs": {
     id: "premium-farm-eggs",
-    name: "Premium Farm Eggs",
+    name: "Eggy Nutritior™ Premium Farm Eggs",
     category: "Nutrition & Wellness",
     description: "High-quality, farm-fresh eggs in premium protective packaging. Rich in protein, Omega-3, and essential vitamins for your daily nutritional needs.",
     price: "Varies by size",
@@ -360,8 +360,8 @@ export default async function ProductDetail({ params }: { params: Promise<{ id: 
                 <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-black mb-4 text-text-dark leading-[1.1] tracking-tight">
                   {product.name.includes("Sky Soft") ? (
                     <>
-                      <mark className="bg-yellow-300 text-black px-3 py-1 rounded-md font-black shadow-sm mr-2">Sky Soft</mark>
-                      {product.name.split("Sky Soft")[1]}
+                      <mark className="bg-yellow-300 text-black px-3 py-1 rounded-md font-black shadow-sm mr-1">Sky Soft</mark>™
+                      {product.name.split("Sky Soft™")[1] || product.name.split("Sky Soft")[1]}
                     </>
                   ) : (
                     product.name

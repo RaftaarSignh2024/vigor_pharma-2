@@ -32,7 +32,7 @@ export default function About() {
             <div className="animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
               <h2 className="font-heading text-4xl font-bold mb-6">A Commitment to <span className="text-primary">Excellence</span></h2>
               <p className="text-text-muted mb-6 text-lg">
-                At Vigor Life Care LLP, we believe that true wellness encompasses what you put into your body and how you care for it externally. That's why we've pioneered a unique approach, offering top-tier nutritional staples alongside premium personal care items.
+                At <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">Vigor Life Care LLP</span>, we believe that true wellness encompasses what you put into your body and how you care for it externally. That's why we've pioneered a unique approach, offering top-tier nutritional staples alongside premium personal care items.
               </p>
               <p className="text-text-muted mb-10 text-lg">
                 Whether it's ensuring our farm-fresh eggs are packed with vital nutrients, or designing sanitary pads that offer unparalleled comfort and protection, our uncompromising standards remain the same.
@@ -73,9 +73,13 @@ export default function About() {
                   <i className="ph-fill ph-heartbeat"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-2">Vigor Life Care LLP</h3>
-                <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
+                <div className="mb-4 text-sm font-bold tracking-wider uppercase flex items-center gap-3 flex-wrap">
+                  <div><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
+                  <div className="w-1.5 h-1.5 rounded-full bg-gray-300 hidden sm:block"></div>
+                  <div><span className="text-text-muted">Est:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">2024</span></div>
+                </div>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
-                  As a pioneering force in the wellness industry, <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">Vigor Life Care LLP</span> is dedicated to elevating everyday health standards. We seamlessly bridge the gap between cutting-edge nutritional science and premium personal hygiene solutions to enrich and empower lives.
+                  Founded in 2024, <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">Vigor Life Care LLP</span> has rapidly emerged as a transformative powerhouse in the wellness industry. Driven by a relentless pursuit of excellence, we fuse advanced nutritional science with state-of-the-art personal hygiene innovations. Our mission is to radically elevate global health standards, delivering uncompromising quality and profound vitality to empower lives worldwide.
                 </p>
                 <Link href="/company/vigor-life-care" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
                   View More
@@ -94,9 +98,16 @@ export default function About() {
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-2">GS Enterprises</h3>
                 <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
-                <p className="text-text-muted text-lg leading-relaxed mb-6">
-                  Operating at the forefront of the healthcare sector, <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">GS Enterprises</span> serves as a premier pharmaceutical consulting firm. We provide strategic regulatory insights and expert guidance to help organizations navigate the complexities of dynamic medical markets.
+                <p className="text-text-muted text-lg leading-relaxed mb-4">
+                  <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">GS Enterprises</span> is a professionally managed Turnkey Projects and Engineering Company specializing in setting up Pharma, API, Cosmetic, Herbal Extraction, and Healthcare Plants from Concept to Commissioning with over 60+ projects executed worldwide:
                 </p>
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {["Pharmaceutical Plant Setup", "Pharmaceutical Plant Renovation", "WHO GMP Certification", "COPP", "Free Sale Certificate", "GMP Certificate", "Market Standing Certificate", "Performance Certificate", "Neutral Code", "Risk-Based Inspections", "Schedule M Compliance", "Loan License for Drugs Manufacturing", "QMS of Pharmaceuticals", "Quality Risk Management"].map((service, index) => (
+                    <span key={index} className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1.5 rounded-full border border-primary/20">
+                      {service}
+                    </span>
+                  ))}
+                </div>
                 <Link href="/company/gs-enterprises" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
                   View More
                 </Link>
