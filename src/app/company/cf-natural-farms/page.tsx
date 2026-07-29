@@ -68,6 +68,24 @@ export default function CFNaturalFarmsDetails() {
               <p className="text-text-muted text-lg leading-relaxed mb-6">
                 Driven by a steadfast commitment to environmental stewardship and rigorous quality assurance, we have perfected the farm-to-table continuum. Our core philosophy centers on nurturing both our flocks and our consumers—delivering vital, protein-rich staples that serve as the cornerstone of a vibrant, healthy lifestyle.
               </p>
+              {/* Professional Highlight Badges */}
+              <div className="flex flex-wrap gap-2.5 my-6">
+                {[
+                  "Registered Trademark: Eggy Nutritior™ (Class 29)",
+                  "Ethical Eco-Conscious Farming",
+                  "100% Pasture Raised & Free-Range",
+                  "Zero Antibiotics & Zero Hormones",
+                  "Omega-3 Rich Premium Farm Eggs",
+                  "Farm-to-Table Quality Control",
+                  "Sustainable Agriculture & Eco Practices"
+                ].map((highlight, index) => (
+                  <span key={index} className="text-xs font-bold text-green-700 bg-green-50 px-3.5 py-2 rounded-full border border-green-200 flex items-center gap-2 shadow-2xs">
+                    <i className="ph-bold ph-check-circle text-green-600 text-sm"></i>
+                    {highlight}
+                  </span>
+                ))}
+              </div>
+
               <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 mt-6 flex gap-4 items-start">
                 <i className="ph-fill ph-certificate text-3xl text-primary shrink-0 mt-1"></i>
                 <div>

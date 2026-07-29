@@ -99,11 +99,13 @@ export default function About() {
                 <h3 className="font-heading text-3xl font-bold mb-2">GS Enterprises</h3>
                 <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
                 <p className="text-text-muted text-lg leading-relaxed mb-4">
-                  <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">GS Enterprises</span> is a professionally managed Turnkey Projects and Engineering Company specializing in setting up Pharma, API, Cosmetic, Herbal Extraction, and Healthcare Plants from Concept to Commissioning with over 60+ projects executed worldwide:
+                  <span className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded">G.S. Enterprises</span> is a professionally managed TurnKey Projects and Engineering Company specialized in setting up of Pharma, API, Cosmetic, Herbal Extraction and Healthcare Plants from Concept to Commissioning. This includes Preparation of Factory designs, Architecture and Structural designing, HVAC designing, Equipment expediting, Water System and Electrical Designing and In house Engineering, construction, Manufacturing & site Execution.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {["Pharmaceutical Plant Setup", "Pharmaceutical Plant Renovation", "WHO GMP Certification", "COPP", "Free Sale Certificate", "GMP Certificate", "Market Standing Certificate", "Performance Certificate", "Neutral Code", "Risk-Based Inspections", "Schedule M Compliance", "Loan License for Drugs Manufacturing", "QMS of Pharmaceuticals", "Quality Risk Management"].map((service, index) => (
-                    <span key={index} className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1.5 rounded-full border border-primary/20">
+                  {[
+                    "PHARMA PROJECT CONSULTANTS", "PHARMA PROJECTS EXPORT", "TURNKEY PHARMA PROJECTS", "TURNKEY PROJECTS", "PHARMACEUTICAL PROJECT EXPORT", "PHARMACEUTICAL TURNKEY PROJECT", "EU APPROVAL FOR PHARMA PLANTS", "VALIDATION OF PHARMA PROJECTS", "CONSULTANCY FOR PHARMA PROJECTS", "HERBAL PROJECTS", "SUPPLY OF TURNKEY PHARMA PROJECTS", "LABORATORY DESIGNING", "LABORATORY TURNKEY PROJECTS", "PHARMA TURNKEY PROJECT SUPPLY", "PHARMA PLANT LAYOUTS", "PHARMA PLANT ENGINEERING", "FEASIBILITY REPORT FOR PHARMA PROJECT", "PHARMA PLANT DESIGN", "HVAC IN PHARMA PLANTS", "CLEAN ROOMS FOR PHARMA PLANTS", "CLEAN ROOM DESIGN", "TABLET CAPSULE PLANTS", "LIQUID ORAL PLANTS", "IV FLUID FACTORY SUPPLY", "PHARMA FACTORY SUPPLY", "USFDA APPROVAL PHARMA PLANTS", "MHRA APPROVAL PHARMA PLANTS", "PICS APPROVAL PHARMA PLANTS", "INTERNATIONAL PHARMA PLANTS"
+                  ].map((service, index) => (
+                    <span key={index} className="text-xs font-semibold text-primary bg-primary/10 px-3 py-1.5 rounded-full border border-primary/20">
                       {service}
                     </span>
                   ))}
@@ -120,14 +122,33 @@ export default function About() {
                 <img src="/banner_cf_farms.png" alt="CF Natural Lay Farms LLP" className="w-full h-full object-cover" />
               </div>
               <div className="w-full md:w-1/2 p-10 md:p-16">
-                <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
+                <div className="w-16 h-16 rounded-2xl bg-green-500/10 text-green-600 flex items-center justify-center text-3xl mb-6">
                   <i className="ph-fill ph-plant"></i>
                 </div>
                 <h3 className="font-heading text-3xl font-bold mb-2">CF Natural Lay Farms LLP</h3>
                 <div className="mb-4 text-sm font-bold tracking-wider uppercase"><span className="text-text-muted">Founder:</span> <span className="text-primary bg-primary/10 px-2 py-1 rounded ml-1">Mr. Gajendra Kumar</span></div>
-                <p className="text-text-muted text-lg leading-relaxed mb-6">
+                <p className="text-text-muted text-lg leading-relaxed mb-4">
                   Driven by a deep respect for heritage practices, <span className="text-green-600 font-bold bg-green-600/10 px-2 py-0.5 rounded">CF Natural Lay Farms LLP</span> represents our unwavering commitment to sustainable agriculture. We focus on the ethical, eco-conscious cultivation of premium-quality eggs that nourish our communities.
                 </p>
+
+                {/* Professional Highlight Badges */}
+                <div className="flex flex-wrap gap-2 mb-8">
+                  {[
+                    "Registered Trademark: Eggy Nutritior™ (Class 29)",
+                    "Ethical Eco-Conscious Farming",
+                    "100% Pasture Raised & Free-Range",
+                    "Zero Antibiotics & Zero Hormones",
+                    "Omega-3 Rich Premium Farm Eggs",
+                    "Farm-to-Table Quality Control",
+                    "Sustainable Agriculture & Eco Practices"
+                  ].map((highlight, index) => (
+                    <span key={index} className="text-xs font-semibold text-green-700 bg-green-50 px-3 py-1.5 rounded-full border border-green-200 flex items-center gap-1.5">
+                      <i className="ph-bold ph-check-circle text-green-600"></i>
+                      {highlight}
+                    </span>
+                  ))}
+                </div>
+
                 <Link href="/company/cf-natural-farms" className="inline-block px-8 py-4 rounded-xl font-heading font-semibold text-white bg-primary shadow-[0_10px_20px_var(--primary-glow)] hover:bg-primary-dark hover:-translate-y-0.5 hover:shadow-[0_15px_25px_var(--primary-glow)] transition-all duration-300">
                   View More
                 </Link>

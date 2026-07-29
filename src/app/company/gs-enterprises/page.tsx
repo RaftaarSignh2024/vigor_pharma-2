@@ -52,17 +52,17 @@ export default function GSEnterprisesDetails() {
                 <i className="ph-fill ph-stethoscope text-xl"></i>
                 <span className="font-semibold tracking-wide uppercase text-sm">Turnkey Projects & Engineering Consultants</span>
               </div>
-              <h3 className="font-heading text-4xl font-bold mb-6">GS Enterprises</h3>
+              <h3 className="font-heading text-4xl font-bold mb-6">G.S. Enterprises</h3>
               
               <div className="space-y-4 text-text-muted text-base md:text-lg leading-relaxed">
                 <p>
-                  <strong className="text-gray-800 font-semibold">GS Enterprises</strong> operates as a professionally managed TurnKey Projects and Engineering Company specialized in setting up Pharma, API, Cosmetic, Herbal Extraction, and Healthcare Plants from Concept to Commissioning. This includes Preparation of Factory designs, Architecture & Structural designing, HVAC designing, Equipment expediting, Water System and Electrical Designing, and In-house Engineering, construction, Manufacturing & site Execution.
+                  <strong className="text-gray-800 font-semibold">G.S. Enterprises</strong> is a professionally managed TurnKey Projects and Engineering Company specialized in setting up of Pharma, API, Cosmetic, Herbal Extraction and Healthcare Plants from Concept to Commissioning. This includes Preparation of Factory designs, Architecture and Structural designing, HVAC designing, Equipment expediting, Water System and Electrical Designing and In house Engineering, construction, Manufacturing & site Execution.
                 </p>
                 <p>
-                  We have a dedicated team of Architects, Structural Engineers, HVAC Engineers, Mechanical Engineers, Electrical Engineers, and Site Engineers. We take up project work with a concept of <span className="font-semibold text-primary">Project Integration</span>, making us your ideal partners for facility expansions, greenfield projects, and capacity expansions.
+                  We at G.S. Enterprises have dedicated team of Architects, Structural Engineers, HVAC Engineers, Mechanical Engineers, Electrical Engineers & Site Engineers. We take up the project work with a concept of <span className="font-semibold text-primary">Project Integration</span>, making us your ideal partners in your plans for expansion of your facilities, green field project & capacity expansions.
                 </p>
                 <p>
-                  We provide In-house Engineering & Manufacturing for electrical, HVAC, Piping, and process equipment. This is followed up by active on-site project management and validation. We pay major attention to project integration resulting in cost-effective and timely completion. Having worked on more than <span className="font-bold text-gray-800 underline decoration-primary/40 underline-offset-4">60+ pharmaceutical, API, Bulk Drug, Herbal Extraction, and Oral Care Projects</span>, we guarantee uncompromising quality and WHO compliance.
+                  We provide In house Engineering & Manufacturing for electrical, HVAC, Piping and process equipment. This is followed up by active on site project management and validation. We pay major attention to integration of project resulting in to cost effective and timely completion of the project. Apart from having worked on more than <span className="font-bold text-gray-800 underline decoration-primary/40 underline-offset-4">60+ pharmaceutical, API, Bulk Drug, Herbal Extraction and Oral Care Projects</span>.
                 </p>
               </div>
 
@@ -91,10 +91,10 @@ export default function GSEnterprisesDetails() {
         <div className="w-full max-w-[1280px] mx-auto px-6">
           <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-8 duration-1000">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-bold text-xs uppercase tracking-widest mb-4">
-              <i className="ph-bold ph-certificate"></i> Our Core Offerings
+              <i className="ph-bold ph-certificate"></i> Our Specialties & Core Capabilities
             </div>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-4">Services Provided by <span className="text-primary">GS Enterprises</span></h2>
-            <p className="text-lg text-text-muted max-w-3xl mx-auto">From concept to commissioning — specialized turnkey engineering, plant design, regulatory guidance, and WHO compliance solutions.</p>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-4">Services Provided by <span className="text-primary">G.S. Enterprises</span></h2>
+            <p className="text-lg text-text-muted max-w-3xl mx-auto">From concept to commissioning — specialized turnkey engineering, plant design, regulatory guidance, and international approvals.</p>
           </div>
 
           {/* Categorized Services Cards */}
@@ -129,16 +129,16 @@ export default function GSEnterprisesDetails() {
               <div className="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6">
                 <i className="ph-fill ph-certificate"></i>
               </div>
-              <h3 className="font-heading text-2xl font-bold mb-3 text-slate-800">Regulatory & Certifications</h3>
-              <p className="text-text-muted text-sm mb-6 leading-relaxed">Complete WHO GMP compliance and regulatory documentation support for international and domestic standards.</p>
+              <h3 className="font-heading text-2xl font-bold mb-3 text-slate-800">Regulatory & International Approvals</h3>
+              <p className="text-text-muted text-sm mb-6 leading-relaxed">Complete USFDA, MHRA, EU, and PICS approval guidance and regulatory validation support.</p>
               <ul className="space-y-3 mt-auto">
                 {[
-                  "WHO GMP Certification",
-                  "Schedule M Compliance",
-                  "COPP (Certificate of Pharmaceutical Product)",
-                  "Free Sale Certificate",
-                  "GMP Certificate & Neutral Code",
-                  "Market Standing & Performance Certificates"
+                  "USFDA Approval for Pharma Plants",
+                  "MHRA & EU Approval for Pharma Plants",
+                  "PICS Approval & Validation of Projects",
+                  "Consultancy for International Pharma Plants",
+                  "Clean Rooms & HVAC for Pharma Plants",
+                  "Tablet, Capsule, Liquid & IV Fluid Factories"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm text-gray-700 font-medium">
                     <i className="ph-bold ph-check-circle text-primary text-lg shrink-0 mt-0.5"></i>
@@ -153,15 +153,15 @@ export default function GSEnterprisesDetails() {
               <div className="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-600 flex items-center justify-center text-3xl mb-6">
                 <i className="ph-fill ph-shield-check"></i>
               </div>
-              <h3 className="font-heading text-2xl font-bold mb-3 text-slate-800">Quality, Licensing & Audits</h3>
-              <p className="text-text-muted text-sm mb-6 leading-relaxed">Strategic quality systems, risk-based inspections, licensing solutions, and plant renovation consultancy.</p>
+              <h3 className="font-heading text-2xl font-bold mb-3 text-slate-800">Laboratory & Specialized Plants</h3>
+              <p className="text-text-muted text-sm mb-6 leading-relaxed">Laboratory turnkey designing, herbal extraction plants, feasibility reports, and active project integration.</p>
               <ul className="space-y-3 mt-auto">
                 {[
-                  "Risk-Based Inspections & Audits",
-                  "Loan License for Drugs Manufacturing",
-                  "QMS of Pharmaceuticals",
-                  "Quality Risk Management (QRM)",
-                  "Pharmaceutical Plant Renovation",
+                  "Laboratory Designing & Turnkey Projects",
+                  "Herbal Projects & Extraction Plants",
+                  "Feasibility Report for Pharma Projects",
+                  "Pharma Plant Layouts & Engineering",
+                  "In-house Manufacturing & Site Management",
                   "Active On-site Management & Validation"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm text-gray-700 font-medium">
@@ -176,30 +176,13 @@ export default function GSEnterprisesDetails() {
 
           {/* Quick List Badge Grid */}
           <div className="bg-white rounded-3xl p-8 md:p-10 border border-black/5 shadow-lg">
-            <h4 className="font-heading text-xl font-bold mb-6 text-center text-gray-800">All Specialized Consulting Services at a Glance</h4>
-            <div className="flex flex-wrap gap-3 justify-center">
+            <h4 className="font-heading text-2xl font-bold mb-6 text-center text-gray-800">Our Complete Specialties Portfolio</h4>
+            <div className="flex flex-wrap gap-2.5 justify-center">
               {[
-                "Pharmaceutical Plant Setup",
-                "Pharmaceutical Plant Renovation",
-                "Factory & Architectural Design",
-                "HVAC & Electrical System Design",
-                "WHO GMP Certification",
-                "COPP Certificate",
-                "Free Sale Certificate",
-                "GMP Certificate",
-                "Market Standing Certificate",
-                "Performance Certificate",
-                "Neutral Code Licensing",
-                "Risk-Based Inspections",
-                "Schedule M Compliance",
-                "Loan License for Drugs Manufacturing",
-                "QMS of Pharmaceuticals",
-                "Quality Risk Management",
-                "Greenfield Projects & Capacity Expansion",
-                "On-Site Validation & Integration"
+                "PHARMA PROJECT CONSULTANTS", "PHARMA PROJECTS EXPORT", "TURNKEY PHARMA PROJECTS", "TURNKEY PROJECTS", "PHARMACEUTICAL PROJECT EXPORT", "PHARMACEUTICAL TURNKEY PROJECT", "EU APPROVAL FOR PHARMA PLANTS", "VALIDATION OF PHARMA PROJECTS", "CONSULTANCY FOR PHARMA PROJECTS", "HERBAL PROJECTS", "SUPPLY OF TURNKEY PHARMA PROJECTS", "LABORATORY DESIGNING", "LABORATORY TURNKEY PROJECTS", "PHARMA TURNKEY PROJECT SUPPLY", "PHARMA PLANT LAYOUTS", "PHARMA PLANT ENGINEERING", "FEASIBILITY REPORT FOR PHARMA PROJECT", "PHARMA PLANT DESIGN", "HVAC IN PHARMA PLANTS", "CLEAN ROOMS FOR PHARMA PLANTS", "CLEAN ROOM DESIGN", "TABLET CAPSULE PLANTS", "LIQUID ORAL PLANTS", "IV FLUID FACTORY SUPPLY", "PHARMA FACTORY SUPPLY", "USFDA APPROVAL PHARMA PLANTS", "MHRA APPROVAL PHARMA PLANTS", "PICS APPROVAL PHARMA PLANTS", "INTERNATIONAL PHARMA PLANTS"
               ].map((service, index) => (
-                <div key={index} className="inline-flex items-center gap-2 px-4 py-2.5 rounded-2xl bg-gray-50 border border-gray-200 text-gray-800 font-semibold text-sm hover:border-primary hover:bg-primary/5 hover:text-primary transition-all duration-300 shadow-2xs">
-                  <i className="ph-fill ph-check-circle text-primary text-base"></i>
+                <div key={index} className="inline-flex items-center gap-2 px-3.5 py-2 rounded-2xl bg-gray-50 border border-gray-200 text-gray-800 font-bold text-xs hover:border-primary hover:bg-primary/5 hover:text-primary transition-all duration-300 shadow-2xs">
+                  <i className="ph-fill ph-check-circle text-primary text-sm"></i>
                   <span>{service}</span>
                 </div>
               ))}

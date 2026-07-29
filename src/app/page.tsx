@@ -209,8 +209,8 @@ export default function Home() {
 
             {/* Product 5 */}
             <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200 fill-mode-both">
-              <div className="w-full aspect-square relative bg-gray-100 border-b border-black/5 p-4">
-                <img src="/sanitary_pads_s.jpg" alt="Sanitary Pads" className="w-full h-full object-contain mix-blend-multiply" />
+              <div className="w-full aspect-square relative bg-gray-100 border-b border-black/5">
+                <img src="/slider_sanitary_pads_new.png" alt="Sanitary Pads" className="w-full h-full object-cover" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Hygiene</span>
@@ -224,8 +224,8 @@ export default function Home() {
 
             {/* Product 6 */}
             <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300 fill-mode-both">
-              <div className="w-full aspect-square relative bg-gray-100 border-b border-black/5 p-4">
-                <img src="/diaper_m.jpg" alt="Baby Diapers" className="w-full h-full object-contain mix-blend-multiply" />
+              <div className="w-full aspect-square relative bg-gray-100 border-b border-black/5">
+                <img src="/slider_baby_diapers_new.png" alt="Baby Diapers" className="w-full h-full object-cover" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Baby Care</span>
