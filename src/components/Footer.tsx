@@ -19,7 +19,7 @@ export default function Footer() {
               <img src="/logo.png" alt="Vigor Life Care LLP Logo" className="h-16 md:h-20 w-auto object-contain" />
             </Link>
             <p className="leading-relaxed text-slate-400 text-base mb-8 max-w-md">
-              Elevating your lifestyle with top-tier nutritional staples and premium personal care items. We believe in true wellness from the inside out.
+              Vigor Life Care LLP is committed to redefining wellness — delivering farm-fresh nutrition, premium hygiene, and trusted personal care products that empower healthier lives every single day.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-800 text-white hover:bg-orange-500 hover:shadow-[0_0_15px_rgba(249,115,22,0.5)] transition-all duration-300"><i className="ph-fill ph-facebook-logo text-xl"></i></a>
