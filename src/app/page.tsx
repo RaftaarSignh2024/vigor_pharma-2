@@ -59,7 +59,7 @@ export default function Home() {
                   <mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-md shadow-sm mr-1">Sky Soft</mark>™
                 </h3>
                 <p className="text-base text-slate-600 leading-relaxed font-medium">
-                  Officially registered trademark for our premium personal hygiene division, guaranteeing safe, high-quality sanitary pads and baby diapers.
+                  Officially registered trademark for our premium personal hygiene division, guaranteeing safe, high-quality sanitary pads, baby diapers, and baby wipes.
                 </p>
               </div>
             </div>
@@ -232,6 +232,21 @@ export default function Home() {
                 <h3 className="font-heading text-xl font-bold mb-3"><mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm">Sky Soft</mark>™ Baby Diapers</h3>
                 <p className="text-text-muted text-sm mb-6 flex-grow">Provide unparalleled comfort with a super-absorbent core and hypoallergenic materials.</p>
                 <Link href="/products/baby-diapers" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
+                  Learn More <i className="ph-bold ph-arrow-right"></i>
+                </Link>
+              </div>
+            </div>
+
+            {/* Product 7: Baby Wipes */}
+            <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
+              <div className="w-full aspect-square relative bg-gray-100 border-b border-black/5">
+                <img src="/slider_baby_wipes_new.png" alt="Pure Water Baby Wipes" className="w-full h-full object-cover" />
+              </div>
+              <div className="p-6 flex flex-col flex-grow">
+                <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Gentle Baby Care</span>
+                <h3 className="font-heading text-xl font-bold mb-3"><mark className="bg-yellow-300 text-black px-2 py-0.5 rounded-sm font-bold shadow-sm">Sky Soft</mark>™ Baby Wipes</h3>
+                <p className="text-text-muted text-sm mb-6 flex-grow">99% pure water wipes with organic Aloe Vera & Chamomile extracts. Ultra-soft & hypoallergenic.</p>
+                <Link href="/products/baby-wipes" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
                   Learn More <i className="ph-bold ph-arrow-right"></i>
                 </Link>
               </div>

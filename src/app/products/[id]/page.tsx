@@ -86,6 +86,26 @@ const products = {
     ],
     sizes: ["Pack of 9", "Pack of 12"]
   },
+  "baby-wipes": {
+    id: "baby-wipes",
+    name: "Sky Soft™ Baby Wipes (Pure Water & Gentle)",
+    category: "Baby Care",
+    description: "Ultra-soft and extra-thick baby wipes made with 99% pure water and natural Aloe Vera & Chamomile extracts by Vigor Life Care LLP. Formulated to be 100% hypoallergenic, pH-balanced, and free from alcohol, parabens, and artificial fragrances to keep your baby's delicate skin soft, clean, and protected.",
+    price: "$6.99",
+    unit: "pack of 72",
+    image: "/slider_baby_wipes_new.png",
+    features: [
+      "99% Pure Water",
+      "Alcohol & Paraben Free",
+      "pH Balanced & Hypoallergenic",
+      "Aloe Vera & Chamomile Infused"
+    ],
+    variations: [
+      { name: "Single Pack (72 Wipes)", image: "/slider_baby_wipes_new.png" },
+      { name: "Value Pack (3 x 80 Wipes)", image: "/slider_baby_wipes_new.png" }
+    ],
+    sizes: ["Pack of 72", "Pack of 3x80"]
+  },
   "eggy-nutritior": {
     id: "eggy-nutritior",
     name: "Eggy Nutritior™",

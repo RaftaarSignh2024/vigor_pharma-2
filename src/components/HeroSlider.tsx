@@ -12,6 +12,7 @@ interface Slide {
   subtitle: string;
   features: string[];
   link: string;
+  bgContain?: boolean;
 }
 
 const slides: Slide[] = [
@@ -94,6 +95,26 @@ const slides: Slide[] = [
     subtitle: "Gentle on delicate skin by Vigor Life Care LLP, offering maximum absorbency, softness, and coziness for your little one.",
     features: ["3D Super Absorbent Core", "Hypoallergenic Comfort", "Smart Wetness Indicator"],
     link: "/products/baby-diapers"
+  },
+  {
+    id: 9,
+    bgImage: "/hero_banner_baby_wipes.png",
+    alt: "Sky Soft Baby Wipes",
+    category: "Gentle Baby Care",
+    title: "Sky Soft Baby Wipes",
+    subtitle: "99% pure water wipes with organic Aloe Vera & Chamomile extracts by Vigor Life Care LLP. Ultra-soft, thick, and hypoallergenic for delicate skin.",
+    features: ["99% Pure Water", "Alcohol & Paraben Free", "Hypoallergenic Softness"],
+    link: "/products/baby-wipes"
+  },
+  {
+    id: 10,
+    bgImage: "/hero_banner_farm_eggs.png",
+    alt: "Eggy Nutritior Cage-Free Premium Farm Fresh Eggs",
+    category: "Cage-Free Farm Fresh",
+    title: "Eggy Nutritior Cage-Free Eggs",
+    subtitle: "Ethically raised cage-free eggs bursting with natural nutrition. Rich in Omega-3, high-quality protein, and essential vitamins — straight from our free-range farms to your table.",
+    features: ["100% Cage-Free", "Rich in Omega-3", "Ethically Farm-Raised"],
+    link: "/products/premium-farm-eggs"
   }
 ];
 
@@ -137,6 +158,11 @@ export default function HeroSlider() {
                 className="w-full h-full object-cover filter contrast-[1.05]"
               />
             </div>
+
+            {/* Smooth gradient overlay — left dark to right transparent for consistent text readability */}
+            <div className="absolute inset-0 z-[1]" style={{
+              background: "linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.58) 35%, rgba(0,0,0,0.22) 58%, rgba(0,0,0,0) 75%)"
+            }} />
 
             {/* Slide Text Content Container */}
             <div className="relative z-10 w-full max-w-[1280px] mx-auto px-6 py-10 md:py-16 h-full flex items-center">
