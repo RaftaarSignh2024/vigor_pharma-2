@@ -123,12 +123,28 @@ export default function Products() {
               {/* Product 7: Premium Farm Eggs */}
               <Link href="/products/premium-farm-eggs" id="premium-farm-eggs" className="block flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:border-primary hover:ring-4 hover:ring-primary/10 hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both md:col-span-2 lg:col-span-3 lg:w-1/3 lg:mx-auto">
                 <div className="w-full h-80 relative bg-gray-100 border-b border-black/5">
-                  <img src="/premium_egg_carton.png" alt="Eggy Nutritior™ Premium Farm Eggs" className="w-full h-full object-cover" />
+                  <img src="/premium_egg_carton.png" alt="Eggy Nutritior™ Cage-Free Premium Farm Eggs" className="w-full h-full object-cover" />
+                  {/* Cage-Free badge overlay */}
+                  <div className="absolute top-3 right-3 flex flex-col gap-1.5">
+                    <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-green-500 text-white text-[10px] font-bold uppercase tracking-wider shadow-md">
+                      <i className="ph-fill ph-check-circle"></i> Cage-Free
+                    </span>
+                    <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-500 text-white text-[10px] font-bold uppercase tracking-wider shadow-md">
+                      <i className="ph-fill ph-leaf"></i> Free-Range
+                    </span>
+                  </div>
                 </div>
                 <div className="p-8 flex flex-col flex-grow">
-                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Nutrition & Wellness</span>
-                  <h3 className="font-heading text-2xl font-bold mb-3">Eggy Nutritior™ Premium Farm Eggs</h3>
-                  <p className="text-text-muted text-sm mb-6 flex-grow">High-quality, farm-fresh eggs in premium protective packaging. Rich in protein, Omega-3, and essential vitamins.</p>
+                  <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Farm Fresh Nutrition</span>
+                  <h3 className="font-heading text-2xl font-bold mb-3">Eggy Nutritior™ Cage-Free Premium Farm Eggs</h3>
+                  <p className="text-text-muted text-sm mb-5 flex-grow">Ethically raised cage-free eggs from free-range hens. Packed with high-quality protein, Omega-3 fatty acids, and essential vitamins. No hormones, no antibiotics — just pure, natural goodness straight from our farm.</p>
+                  {/* Feature Pills */}
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-50 border border-green-200 text-green-700 text-xs font-semibold"><i className="ph-fill ph-check-circle"></i>100% Cage-Free</span>
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-700 text-xs font-semibold"><i className="ph-fill ph-leaf"></i>Free-Range Hens</span>
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-orange-700 text-xs font-semibold"><i className="ph-fill ph-heart"></i>Hormone-Free</span>
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold"><i className="ph-fill ph-drop"></i>Rich in Omega-3</span>
+                  </div>
                   <div className="mt-auto pt-2">
                     <span className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-orange-500 rounded-full hover:bg-orange-600 transition-colors">
                       View Details

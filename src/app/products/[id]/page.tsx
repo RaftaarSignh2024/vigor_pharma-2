@@ -198,19 +198,19 @@ const products = {
   },
   "premium-farm-eggs": {
     id: "premium-farm-eggs",
-    name: "Eggy Nutritior™ Premium Farm Eggs",
-    category: "Nutrition & Wellness",
-    description: "High-quality, farm-fresh eggs in premium protective packaging. Rich in protein, Omega-3, and essential vitamins for your daily nutritional needs.",
+    name: "Eggy Nutritior™ Cage-Free Premium Farm Eggs",
+    category: "Farm Fresh Nutrition",
+    description: "Ethically raised cage-free eggs from free-range hens by Eggy Nutritior. Our hens roam freely in open spaces, resulting in naturally richer, more nutritious eggs. Packed with high-quality protein, Omega-3 fatty acids, Vitamin D, and essential vitamins — with zero hormones and zero antibiotics. Pure, natural goodness delivered fresh from our farm in premium protective packaging.",
     price: "Varies by size",
-    unit: "Pack of 6 / 12",
+    unit: "Pack of 6 / 10",
     image: "/premium_egg_carton.png",
     features: [
-      "High Quality Protein",
-      "Rich in Omega-3",
-      "Farm Fresh Daily",
+      "100% Cage-Free & Free-Range",
+      "Rich in Omega-3 & Vitamin D",
+      "Zero Hormones & Antibiotics",
       "Premium Protective Packaging"
     ],
-    sizes: ["Pack of 6", "Pack of 12"]
+    sizes: ["Pack of 6", "Pack of 10"]
   }
 };
 

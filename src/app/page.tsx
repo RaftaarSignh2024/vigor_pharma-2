@@ -195,12 +195,20 @@ export default function Home() {
             {/* Product 4 */}
             <div className="flex flex-col rounded-3xl bg-surface border border-black/5 overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.03)] hover:-translate-y-2 hover:shadow-[0_8px_24px_rgba(0,0,0,0.06)] transition-all duration-300 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 fill-mode-both">
               <div className="w-full aspect-square relative bg-gray-100 border-b border-black/5">
-                <img src="/premium_egg_carton.png" alt="Eggy Nutritior™ Farm Fresh Whole Eggs" className="w-full h-full object-cover" />
+                <img src="/premium_egg_carton.png" alt="Eggy Nutritior™ Cage-Free Farm Fresh Eggs" className="w-full h-full object-cover" />
+                <div className="absolute top-2 right-2 flex flex-col gap-1">
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-green-500 text-white text-[9px] font-bold uppercase tracking-wider shadow">
+                    <i className="ph-fill ph-check-circle"></i> Cage-Free
+                  </span>
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-500 text-white text-[9px] font-bold uppercase tracking-wider shadow">
+                    <i className="ph-fill ph-leaf"></i> Free-Range
+                  </span>
+                </div>
               </div>
               <div className="p-6 flex flex-col flex-grow">
-                <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Nutrition</span>
-                <h3 className="font-heading text-xl font-bold mb-3">Eggy Nutritior™ Farm Fresh Whole Eggs</h3>
-                <p className="text-text-muted text-sm mb-6 flex-grow">Rich in omega-3 and essential vitamins. Sourced directly from our ethical farms.</p>
+                <span className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Farm Fresh Nutrition</span>
+                <h3 className="font-heading text-xl font-bold mb-3">Eggy Nutritior™ Cage-Free Farm Eggs</h3>
+                <p className="text-text-muted text-sm mb-6 flex-grow">Ethically raised cage-free eggs from free-range hens. Rich in Omega-3, Vitamin D, and protein — hormone-free and antibiotic-free.</p>
                 <Link href="/products/premium-farm-eggs" className="text-primary font-semibold flex items-center gap-2 hover:text-primary-dark transition-colors">
                   Learn More <i className="ph-bold ph-arrow-right"></i>
                 </Link>
